@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="Project" SchemaVersion="103" WwiseVersion="v2021.1.1" WwiseBuild="7601">
 	<ProjectInfo>
-		<Project Name="GameWorkJam2021_WwiseProject" ID="{78483C5F-0603-4BEE-B74D-7111A66AB83C}">
+		<Project Name="GameWorkJam2021_WwiseProject" ID="{2919B477-FE7A-4D86-B377-E1F505CB4335}">
 			<Platforms>
-				<Platform Name="Android" ReferencePlatform="Android" ID="{43A9EC1A-DD6B-4084-8945-55952AE9C3CD}" />
-				<Platform Name="Mac" ReferencePlatform="Mac" ID="{5647E0A3-8D09-4C65-8A17-2E22B7815C24}" />
-				<Platform Name="Windows" ReferencePlatform="Windows" ID="{A11E1A33-E932-48E0-9B0E-2CDA17CFB160}" />
+				<Platform Name="Android" ReferencePlatform="Android" ID="{EBA74D27-357E-4183-B3E3-A660E024B3E0}" />
+				<Platform Name="Mac" ReferencePlatform="Mac" ID="{37171234-3BE4-4BC2-BA21-4B8D445475D5}" />
+				<Platform Name="Windows" ReferencePlatform="Windows" ID="{D79E9D35-A92D-45F2-96A0-F49644C0556B}" />
 			</Platforms>
 			<LanguageList>
-				<Language Name="English(US)" ID="{0C8F3AED-0F0E-469A-82E0-C80FC8F7DFA6}" />
-				<Language Name="External" ID="{6D87152D-D423-4FFD-A704-C68719B952DF}" />
-				<Language Name="Mixed" ID="{923AA7E7-A17B-4B8E-B6A9-D32DAD49EC21}" />
-				<Language Name="SFX" ID="{E63760B5-1F36-4D7D-BFAF-AC0105465589}" />
+				<Language Name="English(US)" ID="{8DD7ABDC-2993-4D6A-8D24-76A8B64231EB}" />
+				<Language Name="External" ID="{9EFC25F9-63C2-4053-A5F4-6C68453C501A}" />
+				<Language Name="Mixed" ID="{185C9083-C7C7-4F3D-BC59-39A957484333}" />
+				<Language Name="SFX" ID="{F46B3E95-FB28-4966-AF8A-2E216E50EBA7}" />
 			</LanguageList>
 			<PropertyList>
 				<Property Name="ExternalSourcesInputPath" Type="string">
@@ -11766,7 +11766,7 @@
 					<Comment></Comment>
 					<ObsOccCurve CurveXType="Obstruction" CurveYType="Volume">
 						<PlatformCurve Platform="Linked" EnableCurve="true">
-							<Curve Name="" ID="{AD1136C9-9104-4649-B0C6-D5D53D842459}">
+							<Curve Name="" ID="{06FDE6CA-4FBF-4448-8C71-B08FB29206CE}">
 								<PropertyList>
 									<Property Name="Flags" Type="int32" Value="3" />
 								</PropertyList>
@@ -11787,7 +11787,7 @@
 					</ObsOccCurve>
 					<ObsOccCurve CurveXType="Obstruction" CurveYType="LPF">
 						<PlatformCurve Platform="Linked" EnableCurve="true">
-							<Curve Name="" ID="{51E1FF3B-CF5C-4AAC-863E-AAA8AADD1F8F}">
+							<Curve Name="" ID="{833674BB-06AE-44F6-9F90-6228F1BCAB35}">
 								<PropertyList>
 									<Property Name="Flags" Type="int32" Value="1" />
 								</PropertyList>
@@ -11808,7 +11808,7 @@
 					</ObsOccCurve>
 					<ObsOccCurve CurveXType="Obstruction" CurveYType="HPF">
 						<PlatformCurve Platform="Linked" EnableCurve="false">
-							<Curve Name="" ID="{A7DBC051-BD02-4F08-82B8-A44BDD4F6417}">
+							<Curve Name="" ID="{FF0FC994-DDCD-45F1-B2A5-93B86465ADBA}">
 								<PropertyList>
 									<Property Name="Flags" Type="int32" Value="1" />
 								</PropertyList>
@@ -11829,7 +11829,7 @@
 					</ObsOccCurve>
 					<ObsOccCurve CurveXType="Occlusion" CurveYType="Volume">
 						<PlatformCurve Platform="Linked" EnableCurve="true">
-							<Curve Name="" ID="{E560C687-CE32-4A80-9013-B1EE3073B1DA}">
+							<Curve Name="" ID="{FC72312B-AA67-44CA-A9E2-D4679268D08A}">
 								<PropertyList>
 									<Property Name="Flags" Type="int32" Value="3" />
 								</PropertyList>
@@ -11850,7 +11850,7 @@
 					</ObsOccCurve>
 					<ObsOccCurve CurveXType="Occlusion" CurveYType="LPF">
 						<PlatformCurve Platform="Linked" EnableCurve="true">
-							<Curve Name="" ID="{82CF2087-17CF-4854-AB74-41703AF28AB3}">
+							<Curve Name="" ID="{69623CBF-8157-4C1A-9860-4B288F35D6C6}">
 								<PropertyList>
 									<Property Name="Flags" Type="int32" Value="1" />
 								</PropertyList>
@@ -11871,7 +11871,7 @@
 					</ObsOccCurve>
 					<ObsOccCurve CurveXType="Occlusion" CurveYType="HPF">
 						<PlatformCurve Platform="Linked" EnableCurve="false">
-							<Curve Name="" ID="{F8909054-9DB0-488C-9E47-1BC1147C23C4}">
+							<Curve Name="" ID="{8E2F01C7-049D-48C7-B070-2F8133842B1F}">
 								<PropertyList>
 									<Property Name="Flags" Type="int32" Value="1" />
 								</PropertyList>
