@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{7CE40F40-80A6-4B87-81E4-ABA5DB6FC691}" SchemaVersion="103">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{7CE40F40-80A6-4B87-81E4-ABA5DB6FC691}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{7CE40F40-80A6-4B87-81E4-ABA5DB6FC691}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="All" ID="{1EE2F7CE-F2CD-458D-8E61-4CE968CD2969}" ShortID="419130234">
+					<ChildrenList>
+						<Folder Name="Ambientes" ID="{9CC52C98-ED1A-44A6-BDC7-4DF8B5D3E536}" ShortID="496064263"/>
+						<Folder Name="Ui" ID="{01DF4E27-8F2E-4ECE-A8DB-2615C6473752}" ShortID="487833342">
+							<ChildrenList>
+								<Sound Name="ui-001" ID="{9FEE851A-789B-46D3-A59A-87C6EC3B9436}" ShortID="827328453">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ui-001" ID="{22930A56-F8D2-4CEB-B1FD-3970E91107C0}">
+											<Language>SFX</Language>
+											<AudioFile>ui-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="108789451"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ui-001" ID="{22930A56-F8D2-4CEB-B1FD-3970E91107C0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

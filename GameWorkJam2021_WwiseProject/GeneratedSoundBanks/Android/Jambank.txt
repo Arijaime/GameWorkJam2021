@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3287567335	Inicia_game			\Default Work Unit\Inicia_game	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	108789451	ui-001	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Android\SFX\ui-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ui\ui-001		62424
+

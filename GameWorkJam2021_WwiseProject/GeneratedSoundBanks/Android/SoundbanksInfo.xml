@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Android\</SourceFilesRoot>
+		<SoundBanksRoot>K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\GeneratedSoundBanks\Android\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="997575629" Language="SFX" Hash="3392941258">
+			<ObjectPath>\SoundBanks\Default Work Unit\Jambank</ObjectPath>
+			<ShortName>Jambank</ShortName>
+			<Path>Jambank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3287567335" Name="Inicia_game" ObjectPath="\Events\Default Work Unit\Inicia_game" DurationType="OneShot" DurationMin="0.705578" DurationMax="0.705578"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="108789451" Language="SFX">
+					<ShortName>ui-001.wav</ShortName>
+					<Path>SFX\ui-001_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2901137828">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
