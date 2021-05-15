@@ -16,6 +16,23 @@ namespace AK
         static const AkUniqueID INICIA_GAME = 3287567335U;
     } // namespace EVENTS
 
+    namespace STATES
+    {
+        namespace AMBIENTES
+        {
+            static const AkUniqueID GROUP = 1014953671U;
+
+            namespace STATE
+            {
+                static const AkUniqueID MENU = 2607556080U;
+                static const AkUniqueID NIVEL_1 = 2666064987U;
+                static const AkUniqueID NIVEL_2 = 2666064984U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace AMBIENTES
+
+    } // namespace STATES
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;

@@ -8,7 +8,59 @@
 						<Action Name="" ID="{64B55B3B-23BD-4E6C-A548-5D2CFBF46EC1}" ShortID="898340387">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="ui-001" ID="{9FEE851A-789B-46D3-A59A-87C6EC3B9436}" WorkUnitID="{7CE40F40-80A6-4B87-81E4-ABA5DB6FC691}"/>
+									<ObjectRef Name="Ambientes" ID="{8F80D146-4B18-4D17-A1FB-2B93FA403F75}" WorkUnitID="{7CE40F40-80A6-4B87-81E4-ABA5DB6FC691}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{645342E9-0B85-4FF3-B25D-D2737A5D28E2}" ShortID="197791326">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="None" ID="{6C8B534D-40D6-4F7F-9635-5DF248B7F5B1}" WorkUnitID="{4324FECD-B01E-4BE8-AD51-FCAE6A905534}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Nivel_1" ID="{9CCCE544-BEDB-4E2B-9AD0-54C5670B1BC8}">
+					<ChildrenList>
+						<Action Name="" ID="{71A8F1D2-C93E-4BBF-AB10-687A931938E8}" ShortID="749192019">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Nivel_1" ID="{316D7063-3710-4242-999B-772E96E6FE54}" WorkUnitID="{4324FECD-B01E-4BE8-AD51-FCAE6A905534}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Menu" ID="{88695A63-6C94-463E-A99B-6337174B34F1}">
+					<ChildrenList>
+						<Action Name="" ID="{9D30677E-13FD-4349-A611-7490117E7DA1}" ShortID="349360985">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Menu" ID="{5A8529D8-5DBA-44AA-8BD9-62F2BBED7FF2}" WorkUnitID="{4324FECD-B01E-4BE8-AD51-FCAE6A905534}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Nivel_2" ID="{1428F2A5-FC30-459D-9C06-60E010786A49}">
+					<ChildrenList>
+						<Action Name="" ID="{A240D644-A131-452C-968F-6A5479CC01E1}" ShortID="597467487">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Nivel_2" ID="{99E33EDB-CA56-4CBE-A1C5-232A51C3E504}" WorkUnitID="{4324FECD-B01E-4BE8-AD51-FCAE6A905534}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -11,21 +11,82 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="997575629" Language="SFX" Hash="3392941258">
+		<SoundBank Id="997575629" Language="SFX" Hash="2378609340">
 			<ObjectPath>\SoundBanks\Default Work Unit\Jambank</ObjectPath>
 			<ShortName>Jambank</ShortName>
 			<Path>Jambank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3287567335" Name="Inicia_game" ObjectPath="\Events\Default Work Unit\Inicia_game" DurationType="OneShot" DurationMin="0.705578" DurationMax="0.705578"/>
+				<Event Id="3287567335" Name="Inicia_game" ObjectPath="\Events\Default Work Unit\Inicia_game" DurationType="Infinite">
+					<ActionSetState>
+						<ActionSetStateEntry Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Ambientes\None"/>
+					</ActionSetState>
+				</Event>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="108789451" Language="SFX">
 					<ShortName>ui-001.wav</ShortName>
 					<Path>SFX\ui-001_10C4C929.wem</Path>
 				</File>
+				<File Id="132529698" Language="SFX">
+					<ShortName>amb_N1.wav</ShortName>
+					<Path>SFX\amb_N1_2EEC5163.wem</Path>
+				</File>
+				<File Id="182927797" Language="SFX">
+					<ShortName>amb_N1-002.wav</ShortName>
+					<Path>SFX\amb_N1-002_15DD3CF3.wem</Path>
+				</File>
+				<File Id="262218615" Language="SFX">
+					<ShortName>amb_N1_short-002.wav</ShortName>
+					<Path>SFX\amb_N1_short-002_B44A53C8.wem</Path>
+				</File>
+				<File Id="312430445" Language="SFX">
+					<ShortName>amb_menu_short-001.wav</ShortName>
+					<Path>SFX\amb_menu_short-001_CD1D3E58.wem</Path>
+				</File>
+				<File Id="340904118" Language="SFX">
+					<ShortName>amb_menu_short-002.wav</ShortName>
+					<Path>SFX\amb_menu_short-002_4F0FBB27.wem</Path>
+				</File>
+				<File Id="347754114" Language="SFX">
+					<ShortName>amb_menu_short.wav</ShortName>
+					<Path>SFX\amb_menu_short_37D8A182.wem</Path>
+				</File>
+				<File Id="567185007" Language="SFX">
+					<ShortName>amb_N1_short-001.wav</ShortName>
+					<Path>SFX\amb_N1_short-001_1E7BCDAB.wem</Path>
+				</File>
+				<File Id="790463083" Language="SFX">
+					<ShortName>amb_menu.wav</ShortName>
+					<Path>SFX\amb_menu_E04F8236.wem</Path>
+				</File>
+				<File Id="844657113" Language="SFX">
+					<ShortName>amb_N1-001.wav</ShortName>
+					<Path>SFX\amb_N1-001_476E3B1F.wem</Path>
+				</File>
+				<File Id="854722470" Language="SFX">
+					<ShortName>amb_menu-001.wav</ShortName>
+					<Path>SFX\amb_menu-001_C33FF2B1.wem</Path>
+				</File>
+				<File Id="992919730" Language="SFX">
+					<ShortName>amb_N1_short.wav</ShortName>
+					<Path>SFX\amb_N1_short_77899CD3.wem</Path>
+				</File>
 			</IncludedMemoryFiles>
+			<StateGroups>
+				<StateGroup Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Ambientes\None">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1014953671" Name="Ambientes" ObjectPath="\States\Default Work Unit\Ambientes">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Ambientes\None"/>
+						<State Id="2607556080" Name="Menu" ObjectPath="\States\Default Work Unit\Ambientes\Menu"/>
+						<State Id="2666064987" Name="Nivel_1" ObjectPath="\States\Default Work Unit\Ambientes\Nivel_1"/>
+						<State Id="2666064984" Name="Nivel_2" ObjectPath="\States\Default Work Unit\Ambientes\Nivel_2"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2901137828">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2267738259">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
