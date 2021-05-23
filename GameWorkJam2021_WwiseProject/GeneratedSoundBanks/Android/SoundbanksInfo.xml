@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Android\</SourceFilesRoot>
-		<SoundBanksRoot>K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\GeneratedSoundBanks\Android\</SoundBanksRoot>
+		<ProjectRoot>D:\escritorio disco c\GitHub\GameWorkJam2021\GameWorkJam2021_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\escritorio disco c\GitHub\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Android\</SourceFilesRoot>
+		<SoundBanksRoot>D:\escritorio disco c\GitHub\GameWorkJam2021\GameWorkJam2021_WwiseProject\GeneratedSoundBanks\Android\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\escritorio disco c\GitHub\GameWorkJam2021\GameWorkJam2021_WwiseProject\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="997575629" Language="SFX" Hash="2378609340">
+		<SoundBank Id="997575629" Language="SFX" Hash="2758708689">
 			<ObjectPath>\SoundBanks\Default Work Unit\Jambank</ObjectPath>
 			<ShortName>Jambank</ShortName>
 			<Path>Jambank.bnk</Path>
@@ -37,7 +37,7 @@
 				</File>
 				<File Id="262218615" Language="SFX">
 					<ShortName>amb_N1_short-002.wav</ShortName>
-					<Path>SFX\amb_N1_short-002_B44A53C8.wem</Path>
+					<Path>SFX\amb_N1_short-002_66C4F533.wem</Path>
 				</File>
 				<File Id="312430445" Language="SFX">
 					<ShortName>amb_menu_short-001.wav</ShortName>
@@ -53,7 +53,7 @@
 				</File>
 				<File Id="567185007" Language="SFX">
 					<ShortName>amb_N1_short-001.wav</ShortName>
-					<Path>SFX\amb_N1_short-001_1E7BCDAB.wem</Path>
+					<Path>SFX\amb_N1_short-001_124B0A25.wem</Path>
 				</File>
 				<File Id="790463083" Language="SFX">
 					<ShortName>amb_menu.wav</ShortName>
@@ -69,7 +69,7 @@
 				</File>
 				<File Id="992919730" Language="SFX">
 					<ShortName>amb_N1_short.wav</ShortName>
-					<Path>SFX\amb_N1_short_77899CD3.wem</Path>
+					<Path>SFX\amb_N1_short_29A70B25.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 			<StateGroups>
