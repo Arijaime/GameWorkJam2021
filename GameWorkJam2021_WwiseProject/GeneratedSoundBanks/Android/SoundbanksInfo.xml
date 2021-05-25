@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>D:\escritorio disco c\GitHub\GameWorkJam2021\GameWorkJam2021_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>D:\escritorio disco c\GitHub\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Android\</SourceFilesRoot>
-		<SoundBanksRoot>D:\escritorio disco c\GitHub\GameWorkJam2021\GameWorkJam2021_WwiseProject\GeneratedSoundBanks\Android\</SoundBanksRoot>
+		<ProjectRoot>K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Android\</SourceFilesRoot>
+		<SoundBanksRoot>K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\GeneratedSoundBanks\Android\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\escritorio disco c\GitHub\GameWorkJam2021\GameWorkJam2021_WwiseProject\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="997575629" Language="SFX" Hash="2758708689">
+		<SoundBank Id="997575629" Language="SFX" Hash="1718163773">
 			<ObjectPath>\SoundBanks\Default Work Unit\Jambank</ObjectPath>
 			<ShortName>Jambank</ShortName>
 			<Path>Jambank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="4046895995" Name="Cofre_open" ObjectPath="\Events\Default Work Unit\Cofre_open" DurationType="OneShot" DurationMin="4.171021" DurationMax="4.229456"/>
+				<Event Id="922323882" Name="Heart_open" ObjectPath="\Events\Default Work Unit\Heart_open" DurationType="OneShot" DurationMin="3.771791" DurationMax="3.771791"/>
 				<Event Id="3287567335" Name="Inicia_game" ObjectPath="\Events\Default Work Unit\Inicia_game" DurationType="Infinite">
 					<ActionSetState>
 						<ActionSetStateEntry Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Ambientes\None"/>
@@ -23,53 +25,65 @@
 				</Event>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="37338373" Language="SFX">
+					<ShortName>cofres-002.wav</ShortName>
+					<Path>SFX\cofres-002_3F75BDB9.wem</Path>
+				</File>
 				<File Id="108789451" Language="SFX">
 					<ShortName>ui-001.wav</ShortName>
-					<Path>SFX\ui-001_10C4C929.wem</Path>
+					<Path>SFX\ui-001_3F75BDB9.wem</Path>
 				</File>
 				<File Id="132529698" Language="SFX">
 					<ShortName>amb_N1.wav</ShortName>
-					<Path>SFX\amb_N1_2EEC5163.wem</Path>
+					<Path>SFX\amb_N1_ED88C733.wem</Path>
 				</File>
 				<File Id="182927797" Language="SFX">
 					<ShortName>amb_N1-002.wav</ShortName>
-					<Path>SFX\amb_N1-002_15DD3CF3.wem</Path>
+					<Path>SFX\amb_N1-002_2DE11343.wem</Path>
 				</File>
 				<File Id="262218615" Language="SFX">
 					<ShortName>amb_N1_short-002.wav</ShortName>
-					<Path>SFX\amb_N1_short-002_66C4F533.wem</Path>
+					<Path>SFX\amb_N1_short-002_B8F2A363.wem</Path>
 				</File>
 				<File Id="312430445" Language="SFX">
 					<ShortName>amb_menu_short-001.wav</ShortName>
-					<Path>SFX\amb_menu_short-001_CD1D3E58.wem</Path>
+					<Path>SFX\amb_menu_short-001_EB305268.wem</Path>
 				</File>
 				<File Id="340904118" Language="SFX">
 					<ShortName>amb_menu_short-002.wav</ShortName>
-					<Path>SFX\amb_menu_short-002_4F0FBB27.wem</Path>
+					<Path>SFX\amb_menu_short-002_DA4E6437.wem</Path>
 				</File>
 				<File Id="347754114" Language="SFX">
 					<ShortName>amb_menu_short.wav</ShortName>
-					<Path>SFX\amb_menu_short_37D8A182.wem</Path>
+					<Path>SFX\amb_menu_short_298BC212.wem</Path>
+				</File>
+				<File Id="386922530" Language="SFX">
+					<ShortName>cofres.wav</ShortName>
+					<Path>SFX\cofres_3F75BDB9.wem</Path>
 				</File>
 				<File Id="567185007" Language="SFX">
 					<ShortName>amb_N1_short-001.wav</ShortName>
-					<Path>SFX\amb_N1_short-001_124B0A25.wem</Path>
+					<Path>SFX\amb_N1_short-001_74DD0FF5.wem</Path>
+				</File>
+				<File Id="641655162" Language="SFX">
+					<ShortName>cofres-003.wav</ShortName>
+					<Path>SFX\cofres-003_3F75BDB9.wem</Path>
 				</File>
 				<File Id="790463083" Language="SFX">
 					<ShortName>amb_menu.wav</ShortName>
-					<Path>SFX\amb_menu_E04F8236.wem</Path>
+					<Path>SFX\amb_menu_F92BD506.wem</Path>
 				</File>
 				<File Id="844657113" Language="SFX">
 					<ShortName>amb_N1-001.wav</ShortName>
-					<Path>SFX\amb_N1-001_476E3B1F.wem</Path>
+					<Path>SFX\amb_N1-001_2CD56DEF.wem</Path>
 				</File>
 				<File Id="854722470" Language="SFX">
 					<ShortName>amb_menu-001.wav</ShortName>
-					<Path>SFX\amb_menu-001_C33FF2B1.wem</Path>
+					<Path>SFX\amb_menu-001_A3B0E7C1.wem</Path>
 				</File>
 				<File Id="992919730" Language="SFX">
 					<ShortName>amb_N1_short.wav</ShortName>
-					<Path>SFX\amb_N1_short_29A70B25.wem</Path>
+					<Path>SFX\amb_N1_short_75832DB5.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 			<StateGroups>

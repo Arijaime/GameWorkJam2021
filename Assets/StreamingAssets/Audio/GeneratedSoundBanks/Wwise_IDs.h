@@ -13,6 +13,8 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID COFRE_OPEN = 4046895995U;
+        static const AkUniqueID HEART_OPEN = 922323882U;
         static const AkUniqueID INICIA_GAME = 3287567335U;
     } // namespace EVENTS
 

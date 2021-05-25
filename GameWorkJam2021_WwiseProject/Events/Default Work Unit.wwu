@@ -66,6 +66,44 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_axolote" ID="{AF79F208-0FD6-41AF-A2FA-C267051E90CF}"/>
+				<Event Name="Cofre_open" ID="{5672221C-7409-48A8-9E02-5C74053C18FD}">
+					<ChildrenList>
+						<Action Name="" ID="{FE6C0582-EFF1-46F7-BA6A-ADA7D773235B}" ShortID="205853214">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cofre" ID="{444B0236-6579-43B9-9758-E89BE934C3D2}" WorkUnitID="{7CE40F40-80A6-4B87-81E4-ABA5DB6FC691}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="HP_salud" ID="{9804679D-15F5-4E7E-9BDE-BFF0D50AEC69}"/>
+				<Event Name="Heart_open" ID="{0225A10E-40F1-44A8-9076-708B1C0D003D}">
+					<ChildrenList>
+						<Action Name="" ID="{E72DAC76-CC6A-4965-A8C9-5BC77592C2AD}" ShortID="230270585">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cofres" ID="{0907A440-EFB3-4E1D-B26F-2D3854927E5C}" WorkUnitID="{7CE40F40-80A6-4B87-81E4-ABA5DB6FC691}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Calamar_muere" ID="{083BD73F-7280-4E5F-822F-73162051D77D}"/>
+				<Event Name="Calamar_ataque" ID="{5F79E0A9-2654-41CB-9D98-C50FA4ACBF4E}"/>
+				<Event Name="Calamar_patrulla" ID="{24693636-D91D-43C3-82A6-2A8A76AC05CF}"/>
+				<Event Name="Calamar_persigue" ID="{CCBB48DB-89FC-43DB-BDCE-E0119889E28B}"/>
+				<Event Name="Kraken_muere" ID="{06F1C939-A034-402F-A492-426328F9C88F}"/>
+				<Event Name="Kraken_invoca" ID="{BB123A89-B22D-4941-A45F-E29DF30DDED5}"/>
+				<Event Name="Kraken_ataque" ID="{F236A548-88A2-4281-BD27-E7C63327C06F}"/>
+				<Event Name="Play_open" ID="{C466165E-1AEF-414E-9409-FEDF7EACCE68}"/>
+				<Event Name="Play_cuchillo" ID="{3092517B-7840-4994-A41D-CF7603B242B0}"/>
+				<Event Name="Algas_cut" ID="{893AEC12-9A5B-4C8F-9D8F-BC90FFC3BE6F}"/>
+				<Event Name="Enki_damage" ID="{D28391AF-C6E5-470A-9C60-BFC8408052E5}"/>
+				<Event Name="Enki_propulsion" ID="{0F3187CE-7333-498D-B41C-E3126D592A64}"/>
+				<Event Name="Enki_mueve" ID="{A6F2A930-4565-411E-A7B5-60014323EAAB}"/>
+				<Event Name="Enki_hunde" ID="{11336802-4063-4140-885A-9D7182905CC3}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

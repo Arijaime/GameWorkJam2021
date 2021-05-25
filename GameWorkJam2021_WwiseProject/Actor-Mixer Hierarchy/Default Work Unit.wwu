@@ -561,6 +561,95 @@
 								</Sound>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="cofres" ID="{1D0732B2-5DA1-4758-9278-0C5651DE0DEE}" ShortID="1042628252">
+							<ChildrenList>
+								<RandomSequenceContainer Name="cofre" ID="{444B0236-6579-43B9-9758-E89BE934C3D2}" ShortID="386732701">
+									<PropertyList>
+										<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="cofres-003" ID="{E31B31FD-221D-4356-9DE7-BE8128893488}" ShortID="923588084">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="cofres-003" ID="{13470EF3-FC83-4212-86A2-A31D95F12AF5}">
+													<Language>SFX</Language>
+													<AudioFile>cofres-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="641655162"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="cofres-003" ID="{13470EF3-FC83-4212-86A2-A31D95F12AF5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="cofres-002" ID="{9072C2D3-E350-4136-8A31-2A9FE845BFA9}" ShortID="937189706">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="cofres-002" ID="{755F8054-B72D-484B-AB6C-929A99A2F1D2}">
+													<Language>SFX</Language>
+													<AudioFile>cofres-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="37338373"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="cofres-002" ID="{755F8054-B72D-484B-AB6C-929A99A2F1D2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<Sound Name="cofres" ID="{0907A440-EFB3-4E1D-B26F-2D3854927E5C}" ShortID="25303037">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cofres" ID="{64AB7445-757C-424F-94B4-24D0946CAB0D}">
+											<Language>SFX</Language>
+											<AudioFile>cofres.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="386922530"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="cofres" ID="{64AB7445-757C-424F-94B4-24D0946CAB0D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

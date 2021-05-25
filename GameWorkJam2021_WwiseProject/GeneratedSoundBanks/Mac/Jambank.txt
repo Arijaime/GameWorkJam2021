@@ -1,5 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
+	922323882	Heart_open			\Default Work Unit\Heart_open	
 	3287567335	Inicia_game			\Default Work Unit\Inicia_game	
+	4046895995	Cofre_open			\Default Work Unit\Cofre_open	
 
 State Group	ID	Name			Wwise Object Path	Notes
 	1014953671	Ambientes			\Default Work Unit\Ambientes	
@@ -18,16 +20,19 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	412069537	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Nivel_1\Amb_short\New Sound SFX\Wwise Silence	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	108789451	ui-001	D:\escritorio disco c\GitHub\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\ui-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ui\ui-001		62424
-	132529698	amb_N1	D:\escritorio disco c\GitHub\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\amb_N1_2EEC5163.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Nivel_1\amb_N1		5254920
-	182927797	amb_N1-002	D:\escritorio disco c\GitHub\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\amb_N1-002_15DD3CF3.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Nivel_1\amb_N1-002		4260828
-	262218615	amb_N1_short-002	D:\escritorio disco c\GitHub\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\amb_N1_short-002_66C4F533.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Nivel_1\Amb_short\amb_N1_short-002		1146664
-	312430445	amb_menu_short-001	D:\escritorio disco c\GitHub\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\amb_menu_short-001_CD1D3E58.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Menu\amb_short\amb_menu_short-001		1058464
-	340904118	amb_menu_short-002	D:\escritorio disco c\GitHub\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\amb_menu_short-002_4F0FBB27.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Menu\amb_short\amb_menu_short-002		3351664
-	347754114	amb_menu_short	D:\escritorio disco c\GitHub\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\amb_menu_short_37D8A182.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Menu\amb_short\amb_menu_short		2469664
-	567185007	amb_N1_short-001	D:\escritorio disco c\GitHub\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\amb_N1_short-001_124B0A25.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Nivel_1\Amb_short\amb_N1_short-001		1146664
-	790463083	amb_menu	D:\escritorio disco c\GitHub\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\amb_menu_E04F8236.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Menu\amb_menu		4763008
-	844657113	amb_N1-001	D:\escritorio disco c\GitHub\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\amb_N1-001_476E3B1F.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Nivel_1\amb_N1-001		5468608
-	854722470	amb_menu-001	D:\escritorio disco c\GitHub\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\amb_menu-001_C33FF2B1.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Menu\amb_menu-001		4233664
-	992919730	amb_N1_short	D:\escritorio disco c\GitHub\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\amb_N1_short_29A70B25.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Nivel_1\Amb_short\amb_N1_short		793864
+	37338373	cofres-002	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\cofres-002_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\cofres\cofre\cofres-002		62995
+	108789451	ui-001	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\ui-001_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ui\ui-001		6553
+	132529698	amb_N1	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\amb_N1_ED88C733.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Nivel_1\amb_N1		385537
+	182927797	amb_N1-002	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\amb_N1-002_2DE11343.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Nivel_1\amb_N1-002		326066
+	262218615	amb_N1_short-002	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\amb_N1_short-002_B8F2A363.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Nivel_1\Amb_short\amb_N1_short-002		83864
+	312430445	amb_menu_short-001	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\amb_menu_short-001_EB305268.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Menu\amb_short\amb_menu_short-001		60009
+	340904118	amb_menu_short-002	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\amb_menu_short-002_DA4E6437.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Menu\amb_short\amb_menu_short-002		188375
+	347754114	amb_menu_short	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\amb_menu_short_298BC212.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Menu\amb_short\amb_menu_short		136106
+	386922530	cofres	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\cofres_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\cofres\cofres		61086
+	567185007	amb_N1_short-001	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\amb_N1_short-001_74DD0FF5.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Nivel_1\Amb_short\amb_N1_short-001		68169
+	641655162	cofres-003	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\cofres-003_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\cofres\cofre\cofres-003		67378
+	790463083	amb_menu	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\amb_menu_F92BD506.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Menu\amb_menu		333348
+	844657113	amb_N1-001	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\amb_N1-001_2CD56DEF.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Nivel_1\amb_N1-001		368523
+	854722470	amb_menu-001	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\amb_menu-001_A3B0E7C1.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Menu\amb_menu-001		273727
+	992919730	amb_N1_short	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\amb_N1_short_75832DB5.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Nivel_1\Amb_short\amb_N1_short		50015
 
