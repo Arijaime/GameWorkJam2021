@@ -648,6 +648,177 @@
 										<ActiveSource Name="cofres" ID="{64AB7445-757C-424F-94B4-24D0946CAB0D}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<RandomSequenceContainer Name="HP" ID="{82D88DAD-6C9A-43C3-8BBB-42BA6B9D4897}" ShortID="941740942">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="HP" ID="{4AAC56AD-31E0-4691-BA49-593C5429F6B8}" ShortID="953974029">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="HP" ID="{D0B5351B-EF34-482A-986E-BFFAF5A37CB0}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.014111619146748"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0860808767951626"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0.0747915814777642"/>
+														<Property Name="LoopEnd" Type="Real64" Value="1.54943310657596"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.062091124245691"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>HP.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="154660183"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="HP" ID="{D0B5351B-EF34-482A-986E-BFFAF5A37CB0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="HP-001" ID="{3F617B76-2315-4E68-9EE6-C0A7346F3487}" ShortID="206257277">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="HP-001" ID="{379DCB0C-F098-4274-A911-5E0488A2F87B}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.014111619146748"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.180628725078374"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0.0903143625391869"/>
+														<Property Name="LoopEnd" Type="Real64" Value="1.54943310657596"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0705580957337398"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>HP-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="628460631"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="HP-001" ID="{379DCB0C-F098-4274-A911-5E0488A2F87B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Moneda" ID="{9850EA53-C538-40FC-844D-C028E3E2F771}" ShortID="165816559">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="moneda" ID="{3D3F1E1F-562A-4195-B51C-9F7D306421E2}" ShortID="540071440">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="moneda" ID="{7C8B57FD-8960-48D7-87C3-1DDA4165E994}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.33707650273224"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>moneda.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="474273289"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="moneda" ID="{7C8B57FD-8960-48D7-87C3-1DDA4165E994}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="moneda-001" ID="{D2C924D1-6083-465D-8FF3-87E38527EDB9}" ShortID="512234626">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="moneda-001" ID="{87E8AE73-8E94-427B-AE6B-D46449AAE451}">
+													<Language>SFX</Language>
+													<AudioFile>moneda-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="419701707"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="moneda-001" ID="{87E8AE73-8E94-427B-AE6B-D46449AAE451}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Enki" ID="{BB2FA855-09B5-4111-9ED9-03323E1419BD}" ShortID="228754453">
+							<ChildrenList>
+								<Sound Name="enki_hunde" ID="{7783F704-ED56-4AE5-AB15-644700AACA74}" ShortID="948915896">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="enki_hunde" ID="{8A2F706C-58A2-4644-9576-D8D585EB24FD}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.168980025525693"/>
+												<Property Name="LoopBegin" Type="Real64" Value="2.12308237198948"/>
+												<Property Name="LoopEnd" Type="Real64" Value="4.02085804327803"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.7141094300501"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>enki_hunde.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="174522978"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="enki_hunde" ID="{8A2F706C-58A2-4644-9576-D8D585EB24FD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

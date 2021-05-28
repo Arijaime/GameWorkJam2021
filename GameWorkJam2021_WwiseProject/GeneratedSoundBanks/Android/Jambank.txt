@@ -1,5 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
 	922323882	Heart_open			\Default Work Unit\Heart_open	
+	1880221935	HP_salud			\Default Work Unit\HP_salud	
+	2728600545	Enki_hunde			\Default Work Unit\Enki_hunde	
+	2737623399	Play_monedas			\Default Work Unit\Play_monedas	
 	3287567335	Inicia_game			\Default Work Unit\Inicia_game	
 	4046895995	Cofre_open			\Default Work Unit\Cofre_open	
 
@@ -23,13 +26,18 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	37338373	cofres-002	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Android\SFX\cofres-002_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\cofres\cofre\cofres-002		62422
 	108789451	ui-001	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Android\SFX\ui-001_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ui\ui-001		6491
 	132529698	amb_N1	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Android\SFX\amb_N1_ED88C733.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Nivel_1\amb_N1		382983
+	154660183	HP	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Android\SFX\HP_BE65D834.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\cofres\HP\HP		19292
+	174522978	enki_hunde	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Android\SFX\enki_hunde_0F548419.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Enki\enki_hunde		102650
 	182927797	amb_N1-002	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Android\SFX\amb_N1-002_2DE11343.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Nivel_1\amb_N1-002		322692
 	262218615	amb_N1_short-002	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Android\SFX\amb_N1_short-002_B8F2A363.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Nivel_1\Amb_short\amb_N1_short-002		83628
 	312430445	amb_menu_short-001	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Android\SFX\amb_menu_short-001_EB305268.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Menu\amb_short\amb_menu_short-001		59762
 	340904118	amb_menu_short-002	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Android\SFX\amb_menu_short-002_DA4E6437.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Menu\amb_short\amb_menu_short-002		187195
 	347754114	amb_menu_short	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Android\SFX\amb_menu_short_298BC212.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Menu\amb_short\amb_menu_short		135556
 	386922530	cofres	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Android\SFX\cofres_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\cofres\cofres		60889
+	419701707	moneda-001	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Android\SFX\moneda-001_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\cofres\Moneda\moneda-001		9776
+	474273289	moneda	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Android\SFX\moneda_351A3791.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\cofres\Moneda\moneda		10645
 	567185007	amb_N1_short-001	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Android\SFX\amb_N1_short-001_74DD0FF5.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Nivel_1\Amb_short\amb_N1_short-001		67826
+	628460631	HP-001	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Android\SFX\HP-001_DABEAED2.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\cofres\HP\HP-001		22778
 	641655162	cofres-003	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Android\SFX\cofres-003_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\cofres\cofre\cofres-003		66914
 	790463083	amb_menu	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Android\SFX\amb_menu_F92BD506.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Menu\amb_menu		331491
 	844657113	amb_N1-001	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Android\SFX\amb_N1-001_2CD56DEF.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Nivel_1\amb_N1-001		365758

@@ -14,8 +14,11 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID COFRE_OPEN = 4046895995U;
+        static const AkUniqueID ENKI_HUNDE = 2728600545U;
         static const AkUniqueID HEART_OPEN = 922323882U;
+        static const AkUniqueID HP_SALUD = 1880221935U;
         static const AkUniqueID INICIA_GAME = 3287567335U;
+        static const AkUniqueID PLAY_MONEDAS = 2737623399U;
     } // namespace EVENTS
 
     namespace STATES

@@ -78,7 +78,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="HP_salud" ID="{9804679D-15F5-4E7E-9BDE-BFF0D50AEC69}"/>
+				<Event Name="HP_salud" ID="{9804679D-15F5-4E7E-9BDE-BFF0D50AEC69}">
+					<ChildrenList>
+						<Action Name="" ID="{0F80AE0D-5BCB-4D84-B3C8-183851DF899B}" ShortID="773272733">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HP" ID="{82D88DAD-6C9A-43C3-8BBB-42BA6B9D4897}" WorkUnitID="{7CE40F40-80A6-4B87-81E4-ABA5DB6FC691}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="Heart_open" ID="{0225A10E-40F1-44A8-9076-708B1C0D003D}">
 					<ChildrenList>
 						<Action Name="" ID="{E72DAC76-CC6A-4965-A8C9-5BC77592C2AD}" ShortID="230270585">
@@ -103,7 +113,28 @@
 				<Event Name="Enki_damage" ID="{D28391AF-C6E5-470A-9C60-BFC8408052E5}"/>
 				<Event Name="Enki_propulsion" ID="{0F3187CE-7333-498D-B41C-E3126D592A64}"/>
 				<Event Name="Enki_mueve" ID="{A6F2A930-4565-411E-A7B5-60014323EAAB}"/>
-				<Event Name="Enki_hunde" ID="{11336802-4063-4140-885A-9D7182905CC3}"/>
+				<Event Name="Enki_hunde" ID="{11336802-4063-4140-885A-9D7182905CC3}">
+					<ChildrenList>
+						<Action Name="" ID="{D3541885-A1CD-4E2C-ADEF-FA69CC8BA9A8}" ShortID="766988348">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="enki_hunde" ID="{7783F704-ED56-4AE5-AB15-644700AACA74}" WorkUnitID="{7CE40F40-80A6-4B87-81E4-ABA5DB6FC691}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_monedas" ID="{310B9142-8EE0-4633-A6AA-54B8EFB05FC8}">
+					<ChildrenList>
+						<Action Name="" ID="{186BF9CC-0149-463E-B6CC-6181E14CC7E4}" ShortID="101327886">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Moneda" ID="{9850EA53-C538-40FC-844D-C028E3E2F771}" WorkUnitID="{7CE40F40-80A6-4B87-81E4-ABA5DB6FC691}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
