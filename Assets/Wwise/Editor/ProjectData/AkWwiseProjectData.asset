@@ -66,8 +66,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: c7a01a7336de7f478e69bf362575ac06
     GuidInternal: 
-    m_lastTime: -8585809926501332897
-    List: []
+    m_lastTime: -8585804336464687932
+    List:
+    - name: Jambank
+      guid: a6dc934463d7844a8603ed4ba3a5a635
+      id: 997575629
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c7a01a7336de7f478e69bf362575ac06
+      - ElementName: Jambank
+        ObjectType: 7
+        guid: a6dc934463d7844a8603ed4ba3a5a635
+      Path: SoundBanks\Default Work Unit\Jambank
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -80,8 +94,399 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: b990da9fe48efb4e94c7ffcecd1b5aec
     GuidInternal: 
-    m_lastTime: -8585809926503148054
-    List: []
+    m_lastTime: -8585793442522063905
+    List:
+    - name: Algas_cut
+      guid: 12ec3a895b9a8f4c9d8fbc90ffc3be6f
+      id: 4020437884
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b990da9fe48efb4e94c7ffcecd1b5aec
+      - ElementName: Algas_cut
+        ObjectType: 3
+        guid: 12ec3a895b9a8f4c9d8fbc90ffc3be6f
+      Path: Events\Default Work Unit\Algas_cut
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Calamar_ataque
+      guid: a9e0795f5426cb419d98c50fa4acbf4e
+      id: 1051062948
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b990da9fe48efb4e94c7ffcecd1b5aec
+      - ElementName: Calamar_ataque
+        ObjectType: 3
+        guid: a9e0795f5426cb419d98c50fa4acbf4e
+      Path: Events\Default Work Unit\Calamar_ataque
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Calamar_muere
+      guid: 3fd73b0880725f4e822f73162051d77d
+      id: 2277376489
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b990da9fe48efb4e94c7ffcecd1b5aec
+      - ElementName: Calamar_muere
+        ObjectType: 3
+        guid: 3fd73b0880725f4e822f73162051d77d
+      Path: Events\Default Work Unit\Calamar_muere
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Calamar_patrulla
+      guid: 363669241dd9c34382a62a8a76ac05cf
+      id: 2662779926
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b990da9fe48efb4e94c7ffcecd1b5aec
+      - ElementName: Calamar_patrulla
+        ObjectType: 3
+        guid: 363669241dd9c34382a62a8a76ac05cf
+      Path: Events\Default Work Unit\Calamar_patrulla
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Calamar_persigue
+      guid: db48bbccfc89db43bdcee0119889e28b
+      id: 67281393
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b990da9fe48efb4e94c7ffcecd1b5aec
+      - ElementName: Calamar_persigue
+        ObjectType: 3
+        guid: db48bbccfc89db43bdcee0119889e28b
+      Path: Events\Default Work Unit\Calamar_persigue
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Cofre_open
+      guid: 1c2272560974a8489e025c74053c18fd
+      id: 4046895995
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b990da9fe48efb4e94c7ffcecd1b5aec
+      - ElementName: Cofre_open
+        ObjectType: 3
+        guid: 1c2272560974a8489e025c74053c18fd
+      Path: Events\Default Work Unit\Cofre_open
+      maxAttenuation: 0
+      maxDuration: 4229456
+      minDuration: 4171021
+    - name: Enki_damage
+      guid: af9183d2e5c60a479c60bfc8408052e5
+      id: 1400791408
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b990da9fe48efb4e94c7ffcecd1b5aec
+      - ElementName: Enki_damage
+        ObjectType: 3
+        guid: af9183d2e5c60a479c60bfc8408052e5
+      Path: Events\Default Work Unit\Enki_damage
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Enki_hunde
+      guid: 0268331163404041885a9d7182905cc3
+      id: 2728600545
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b990da9fe48efb4e94c7ffcecd1b5aec
+      - ElementName: Enki_hunde
+        ObjectType: 3
+        guid: 0268331163404041885a9d7182905cc3
+      Path: Events\Default Work Unit\Enki_hunde
+      maxAttenuation: 0
+      maxDuration: 4714109
+      minDuration: 4714109
+    - name: Enki_mueve
+      guid: 30a9f2a665451e41a7b560014323eaab
+      id: 151623893
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b990da9fe48efb4e94c7ffcecd1b5aec
+      - ElementName: Enki_mueve
+        ObjectType: 3
+        guid: 30a9f2a665451e41a7b560014323eaab
+      Path: Events\Default Work Unit\Enki_mueve
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Enki_propulsion
+      guid: ce87310f33738d49b41ce3126d592a64
+      id: 2473879928
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b990da9fe48efb4e94c7ffcecd1b5aec
+      - ElementName: Enki_propulsion
+        ObjectType: 3
+        guid: ce87310f33738d49b41ce3126d592a64
+      Path: Events\Default Work Unit\Enki_propulsion
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Heart_open
+      guid: 0ea12502f140a8449076708b1c0d003d
+      id: 922323882
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b990da9fe48efb4e94c7ffcecd1b5aec
+      - ElementName: Heart_open
+        ObjectType: 3
+        guid: 0ea12502f140a8449076708b1c0d003d
+      Path: Events\Default Work Unit\Heart_open
+      maxAttenuation: 0
+      maxDuration: 3771791
+      minDuration: 3771791
+    - name: HP_salud
+      guid: 9d670498f5157e4e9bdebff0d50aec69
+      id: 1880221935
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b990da9fe48efb4e94c7ffcecd1b5aec
+      - ElementName: HP_salud
+        ObjectType: 3
+        guid: 9d670498f5157e4e9bdebff0d50aec69
+      Path: Events\Default Work Unit\HP_salud
+      maxAttenuation: 0
+      maxDuration: 1487365
+      minDuration: 1478898
+    - name: Inicia_game
+      guid: ac01eb18e3c1e544b59fdeab37d84447
+      id: 3287567335
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b990da9fe48efb4e94c7ffcecd1b5aec
+      - ElementName: Inicia_game
+        ObjectType: 3
+        guid: ac01eb18e3c1e544b59fdeab37d84447
+      Path: Events\Default Work Unit\Inicia_game
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Kraken_ataque
+      guid: 48a536f2a2888142bd27e7c63327c06f
+      id: 478551189
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b990da9fe48efb4e94c7ffcecd1b5aec
+      - ElementName: Kraken_ataque
+        ObjectType: 3
+        guid: 48a536f2a2888142bd27e7c63327c06f
+      Path: Events\Default Work Unit\Kraken_ataque
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Kraken_invoca
+      guid: 893a12bb2db24149a45fe29df30dded5
+      id: 3405653998
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b990da9fe48efb4e94c7ffcecd1b5aec
+      - ElementName: Kraken_invoca
+        ObjectType: 3
+        guid: 893a12bb2db24149a45fe29df30dded5
+      Path: Events\Default Work Unit\Kraken_invoca
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Kraken_muere
+      guid: 39c9f10634a02f40a492426328f9c88f
+      id: 263201390
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b990da9fe48efb4e94c7ffcecd1b5aec
+      - ElementName: Kraken_muere
+        ObjectType: 3
+        guid: 39c9f10634a02f40a492426328f9c88f
+      Path: Events\Default Work Unit\Kraken_muere
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Menu
+      guid: 635a6988946c3e46a99b6337174b34f1
+      id: 2607556080
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b990da9fe48efb4e94c7ffcecd1b5aec
+      - ElementName: Menu
+        ObjectType: 3
+        guid: 635a6988946c3e46a99b6337174b34f1
+      Path: Events\Default Work Unit\Menu
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Nivel_1
+      guid: 44e5cc9cdbbe2b4e9ad054c5670b1bc8
+      id: 2666064987
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b990da9fe48efb4e94c7ffcecd1b5aec
+      - ElementName: Nivel_1
+        ObjectType: 3
+        guid: 44e5cc9cdbbe2b4e9ad054c5670b1bc8
+      Path: Events\Default Work Unit\Nivel_1
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Nivel_2
+      guid: a5f2281430fc9d459c0660e010786a49
+      id: 2666064984
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b990da9fe48efb4e94c7ffcecd1b5aec
+      - ElementName: Nivel_2
+        ObjectType: 3
+        guid: a5f2281430fc9d459c0660e010786a49
+      Path: Events\Default Work Unit\Nivel_2
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_axolote
+      guid: 08f279afd60faf41a2fac267051e90cf
+      id: 886770258
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b990da9fe48efb4e94c7ffcecd1b5aec
+      - ElementName: Play_axolote
+        ObjectType: 3
+        guid: 08f279afd60faf41a2fac267051e90cf
+      Path: Events\Default Work Unit\Play_axolote
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_cuchillo
+      guid: 7b51923040789449a41dcf7603b242b0
+      id: 3707565963
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b990da9fe48efb4e94c7ffcecd1b5aec
+      - ElementName: Play_cuchillo
+        ObjectType: 3
+        guid: 7b51923040789449a41dcf7603b242b0
+      Path: Events\Default Work Unit\Play_cuchillo
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_monedas
+      guid: 42910b31e08e3346a6aa54b8efb05fc8
+      id: 2737623399
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b990da9fe48efb4e94c7ffcecd1b5aec
+      - ElementName: Play_monedas
+        ObjectType: 3
+        guid: 42910b31e08e3346a6aa54b8efb05fc8
+      Path: Events\Default Work Unit\Play_monedas
+      maxAttenuation: 0
+      maxDuration: 730000
+      minDuration: 615805
+    - name: Play_open
+      guid: 5e1666c4ef1a4e419409fedf7eacce68
+      id: 2281287634
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b990da9fe48efb4e94c7ffcecd1b5aec
+      - ElementName: Play_open
+        ObjectType: 3
+        guid: 5e1666c4ef1a4e419409fedf7eacce68
+      Path: Events\Default Work Unit\Play_open
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -108,8 +513,90 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: cdfe24431eb0e84bad51fcae6a905534
     GuidInternal: 
-    m_lastTime: -8585809926501173332
-    List: []
+    m_lastTime: -8585804336464668482
+    List:
+    - name: Ambientes
+      guid: 5e681b2c5f5ac549ad738a997779217f
+      id: 1014953671
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cdfe24431eb0e84bad51fcae6a905534
+      - ElementName: Ambientes
+        ObjectType: 9
+        guid: 5e681b2c5f5ac549ad738a997779217f
+      Path: States\Default Work Unit\Ambientes
+      values:
+      - name: Menu
+        guid: d829855aba5daa448bd962f2bbed7ff2
+        id: 2607556080
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: cdfe24431eb0e84bad51fcae6a905534
+        - ElementName: Ambientes
+          ObjectType: 9
+          guid: 5e681b2c5f5ac549ad738a997779217f
+        - ElementName: Menu
+          ObjectType: 8
+          guid: d829855aba5daa448bd962f2bbed7ff2
+      - name: Nivel_1
+        guid: 63706d3110374242999b772e96e6fe54
+        id: 2666064987
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: cdfe24431eb0e84bad51fcae6a905534
+        - ElementName: Ambientes
+          ObjectType: 9
+          guid: 5e681b2c5f5ac549ad738a997779217f
+        - ElementName: Nivel_1
+          ObjectType: 8
+          guid: 63706d3110374242999b772e96e6fe54
+      - name: Nivel_2
+        guid: db3ee39956cabe4ca1c5232a51c3e504
+        id: 2666064984
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: cdfe24431eb0e84bad51fcae6a905534
+        - ElementName: Ambientes
+          ObjectType: 9
+          guid: 5e681b2c5f5ac549ad738a997779217f
+        - ElementName: Nivel_2
+          ObjectType: 8
+          guid: db3ee39956cabe4ca1c5232a51c3e504
+      - name: None
+        guid: 4d538b6cd6407f4f96355df248b7f5b1
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: cdfe24431eb0e84bad51fcae6a905534
+        - ElementName: Ambientes
+          ObjectType: 9
+          guid: 5e681b2c5f5ac549ad738a997779217f
+        - ElementName: None
+          ObjectType: 8
+          guid: 4d538b6cd6407f4f96355df248b7f5b1
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
