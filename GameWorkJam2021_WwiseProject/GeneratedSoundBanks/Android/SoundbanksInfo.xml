@@ -11,13 +11,16 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="997575629" Language="SFX" Hash="2609585079">
+		<SoundBank Id="997575629" Language="SFX" Hash="4091405793">
 			<ObjectPath>\SoundBanks\Default Work Unit\Jambank</ObjectPath>
 			<ShortName>Jambank</ShortName>
 			<Path>Jambank.bnk</Path>
 			<IncludedEvents>
 				<Event Id="4046895995" Name="Cofre_open" ObjectPath="\Events\Default Work Unit\Cofre_open" DurationType="OneShot" DurationMin="4.171021" DurationMax="4.229456"/>
+				<Event Id="1400791408" Name="Enki_damage" ObjectPath="\Events\Default Work Unit\Enki_damage" DurationType="OneShot" DurationMin="1.497642" DurationMax="1.830612"/>
 				<Event Id="2728600545" Name="Enki_hunde" ObjectPath="\Events\Default Work Unit\Enki_hunde" DurationType="OneShot" DurationMin="4.714109" DurationMax="4.714109"/>
+				<Event Id="151623893" Name="Enki_mueve" ObjectPath="\Events\Default Work Unit\Enki_mueve" DurationType="OneShot" DurationMin="3.014363" DurationMax="3.014363"/>
+				<Event Id="2473879928" Name="Enki_propulsion" ObjectPath="\Events\Default Work Unit\Enki_propulsion" DurationType="OneShot" DurationMin="2.606553" DurationMax="2.606553"/>
 				<Event Id="922323882" Name="Heart_open" ObjectPath="\Events\Default Work Unit\Heart_open" DurationType="OneShot" DurationMin="3.771791" DurationMax="3.771791"/>
 				<Event Id="1880221935" Name="HP_salud" ObjectPath="\Events\Default Work Unit\HP_salud" DurationType="OneShot" DurationMin="1.478898" DurationMax="1.487365"/>
 				<Event Id="3287567335" Name="Inicia_game" ObjectPath="\Events\Default Work Unit\Inicia_game" DurationType="Infinite">
@@ -25,9 +28,14 @@
 						<ActionSetStateEntry Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Ambientes\None"/>
 					</ActionSetState>
 				</Event>
+				<Event Id="3707565963" Name="Play_cuchillo" ObjectPath="\Events\Default Work Unit\Play_cuchillo" DurationType="OneShot" DurationMin="1.073061" DurationMax="1.419796"/>
 				<Event Id="2737623399" Name="Play_monedas" ObjectPath="\Events\Default Work Unit\Play_monedas" DurationType="OneShot" DurationMin="0.615805" DurationMax="0.730000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="16250013" Language="SFX">
+					<ShortName>enki_ataque-002.wav</ShortName>
+					<Path>SFX\enki_ataque-002_3F75BDB9.wem</Path>
+				</File>
 				<File Id="37338373" Language="SFX">
 					<ShortName>cofres-002.wav</ShortName>
 					<Path>SFX\cofres-002_3F75BDB9.wem</Path>
@@ -36,6 +44,10 @@
 					<ShortName>ui-001.wav</ShortName>
 					<Path>SFX\ui-001_3F75BDB9.wem</Path>
 				</File>
+				<File Id="123025531" Language="SFX">
+					<ShortName>enki_mueve-001.wav</ShortName>
+					<Path>SFX\enki_mueve-001_3F75BDB9.wem</Path>
+				</File>
 				<File Id="132529698" Language="SFX">
 					<ShortName>amb_N1.wav</ShortName>
 					<Path>SFX\amb_N1_ED88C733.wem</Path>
@@ -43,6 +55,10 @@
 				<File Id="154660183" Language="SFX">
 					<ShortName>HP.wav</ShortName>
 					<Path>SFX\HP_BE65D834.wem</Path>
+				</File>
+				<File Id="160086623" Language="SFX">
+					<ShortName>enki_mueve.wav</ShortName>
+					<Path>SFX\enki_mueve_3F75BDB9.wem</Path>
 				</File>
 				<File Id="174522978" Language="SFX">
 					<ShortName>enki_hunde.wav</ShortName>
@@ -76,6 +92,10 @@
 					<ShortName>moneda-001.wav</ShortName>
 					<Path>SFX\moneda-001_3F75BDB9.wem</Path>
 				</File>
+				<File Id="460161884" Language="SFX">
+					<ShortName>enki_ataque-001.wav</ShortName>
+					<Path>SFX\enki_ataque-001_3F75BDB9.wem</Path>
+				</File>
 				<File Id="474273289" Language="SFX">
 					<ShortName>moneda.wav</ShortName>
 					<Path>SFX\moneda_351A3791.wem</Path>
@@ -84,6 +104,14 @@
 					<ShortName>amb_N1_short-001.wav</ShortName>
 					<Path>SFX\amb_N1_short-001_74DD0FF5.wem</Path>
 				</File>
+				<File Id="579094329" Language="SFX">
+					<ShortName>enki_damage-001.wav</ShortName>
+					<Path>SFX\enki_damage-001_3F75BDB9.wem</Path>
+				</File>
+				<File Id="626107001" Language="SFX">
+					<ShortName>enki_damage.wav</ShortName>
+					<Path>SFX\enki_damage_3F75BDB9.wem</Path>
+				</File>
 				<File Id="628460631" Language="SFX">
 					<ShortName>HP-001.wav</ShortName>
 					<Path>SFX\HP-001_DABEAED2.wem</Path>
@@ -91,6 +119,10 @@
 				<File Id="641655162" Language="SFX">
 					<ShortName>cofres-003.wav</ShortName>
 					<Path>SFX\cofres-003_3F75BDB9.wem</Path>
+				</File>
+				<File Id="669203351" Language="SFX">
+					<ShortName>enki_propulsion.wav</ShortName>
+					<Path>SFX\enki_propulsion_556A3D8E.wem</Path>
 				</File>
 				<File Id="790463083" Language="SFX">
 					<ShortName>amb_menu.wav</ShortName>
@@ -104,9 +136,17 @@
 					<ShortName>amb_menu-001.wav</ShortName>
 					<Path>SFX\amb_menu-001_A3B0E7C1.wem</Path>
 				</File>
+				<File Id="978636148" Language="SFX">
+					<ShortName>enki_ataque.wav</ShortName>
+					<Path>SFX\enki_ataque_3F75BDB9.wem</Path>
+				</File>
 				<File Id="992919730" Language="SFX">
 					<ShortName>amb_N1_short.wav</ShortName>
 					<Path>SFX\amb_N1_short_75832DB5.wem</Path>
+				</File>
+				<File Id="1021825048" Language="SFX">
+					<ShortName>enki_mueve-002.wav</ShortName>
+					<Path>SFX\enki_mueve-002_4AC28D8C.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 			<StateGroups>

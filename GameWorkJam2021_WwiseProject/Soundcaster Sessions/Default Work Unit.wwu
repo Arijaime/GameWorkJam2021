@@ -1,6 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{52CC61EA-0BEC-4251-AC1E-4C837345B696}" SchemaVersion="103">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{52CC61EA-0BEC-4251-AC1E-4C837345B696}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{52CC61EA-0BEC-4251-AC1E-4C837345B696}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="29-05" ID="{E69D205F-0172-44D0-AC3A-26E7AD1BC920}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Inicia_game" ID="{18EB01AC-C1E3-44E5-B59F-DEAB37D84447}" WorkUnitID="{9FDA90B9-8EE4-4EFB-94C7-FFCECD1B5AEC}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Enki_propulsion" ID="{0F3187CE-7333-498D-B41C-E3126D592A64}" WorkUnitID="{9FDA90B9-8EE4-4EFB-94C7-FFCECD1B5AEC}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_monedas" ID="{310B9142-8EE0-4633-A6AA-54B8EFB05FC8}" WorkUnitID="{9FDA90B9-8EE4-4EFB-94C7-FFCECD1B5AEC}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Enki_mueve" ID="{A6F2A930-4565-411E-A7B5-60014323EAAB}" WorkUnitID="{9FDA90B9-8EE4-4EFB-94C7-FFCECD1B5AEC}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Enki_damage" ID="{D28391AF-C6E5-470A-9C60-BFC8408052E5}" WorkUnitID="{9FDA90B9-8EE4-4EFB-94C7-FFCECD1B5AEC}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="HP_salud" ID="{9804679D-15F5-4E7E-9BDE-BFF0D50AEC69}" WorkUnitID="{9FDA90B9-8EE4-4EFB-94C7-FFCECD1B5AEC}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Cofre_open" ID="{5672221C-7409-48A8-9E02-5C74053C18FD}" WorkUnitID="{9FDA90B9-8EE4-4EFB-94C7-FFCECD1B5AEC}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Enki_hunde" ID="{11336802-4063-4140-885A-9D7182905CC3}" WorkUnitID="{9FDA90B9-8EE4-4EFB-94C7-FFCECD1B5AEC}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_cuchillo" ID="{3092517B-7840-4994-A41D-CF7603B242B0}" WorkUnitID="{9FDA90B9-8EE4-4EFB-94C7-FFCECD1B5AEC}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Heart_open" ID="{0225A10E-40F1-44A8-9076-708B1C0D003D}" WorkUnitID="{9FDA90B9-8EE4-4EFB-94C7-FFCECD1B5AEC}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Nivel_1" ID="{316D7063-3710-4242-999B-772E96E6FE54}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
