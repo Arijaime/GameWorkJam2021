@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Umbradev\Desktop\UnityProyects\GameWorkJam2021\GameWorkJam2021_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Umbradev\Desktop\UnityProyects\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Umbradev\Desktop\UnityProyects\GameWorkJam2021\GameWorkJam2021_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Umbradev\Desktop\UnityProyects\GameWorkJam2021\GameWorkJam2021_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="997575629" Language="SFX" Hash="235547601">
+		<SoundBank Id="997575629" Language="SFX" Hash="3348210781">
 			<ObjectPath>\SoundBanks\Default Work Unit\Jambank</ObjectPath>
 			<ShortName>Jambank</ShortName>
 			<Path>Jambank.bnk</Path>

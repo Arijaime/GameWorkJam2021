@@ -3,7 +3,6 @@
   <component name="ContentModelUserStore">
     <attachedFolders />
     <explicitIncludes>
-      <Path>Assets</Path>
       <Path>Library/PackageCache/com.unity.2d.animation@5.0.4</Path>
       <Path>Library/PackageCache/com.unity.2d.common@4.0.3</Path>
       <Path>Library/PackageCache/com.unity.2d.path@4.0.1</Path>
@@ -28,8 +27,8 @@
       <Path>GameWorkJam2021_WwiseProject</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
-      <Path>Temp</Path>
       <Path>UserSettings</Path>
+      <Path>builds</Path>
       <Path>obj</Path>
     </explicitExcludes>
   </component>
