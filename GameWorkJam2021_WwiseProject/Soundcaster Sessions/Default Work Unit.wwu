@@ -48,6 +48,7 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="A" ID="{0723058B-2CA8-435A-B6A0-B82436792001}"/>
 						<CurrentStateRef Name="Nivel_1" ID="{316D7063-3710-4242-999B-772E96E6FE54}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>

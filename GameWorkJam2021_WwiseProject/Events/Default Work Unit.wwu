@@ -22,6 +22,23 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{CF7F1FED-2234-493D-824B-D6F4B680A0EE}" ShortID="845454951">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="None" ID="{DF2D24FF-147B-4A1B-9966-94EBDD8581D5}" WorkUnitID="{4324FECD-B01E-4BE8-AD51-FCAE6A905534}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{BC9BD5CF-9E94-4489-BD17-AEFFB725835B}" ShortID="897461821">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Switch musicas" ID="{1E9B78CB-15A7-45C7-B5D8-92AB322F9919}" WorkUnitID="{29AF0BB5-4076-4149-89D5-F8AFE9F99A96}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Nivel_1" ID="{9CCCE544-BEDB-4E2B-9AD0-54C5670B1BC8}">
@@ -47,20 +64,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Menu" ID="{5A8529D8-5DBA-44AA-8BD9-62F2BBED7FF2}" WorkUnitID="{4324FECD-B01E-4BE8-AD51-FCAE6A905534}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Nivel_2" ID="{1428F2A5-FC30-459D-9C06-60E010786A49}">
-					<ChildrenList>
-						<Action Name="" ID="{A240D644-A131-452C-968F-6A5479CC01E1}" ShortID="597467487">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Nivel_2" ID="{99E33EDB-CA56-4CBE-A1C5-232A51C3E504}" WorkUnitID="{4324FECD-B01E-4BE8-AD51-FCAE6A905534}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -107,7 +110,6 @@
 				<Event Name="Kraken_muere" ID="{06F1C939-A034-402F-A492-426328F9C88F}"/>
 				<Event Name="Kraken_invoca" ID="{BB123A89-B22D-4941-A45F-E29DF30DDED5}"/>
 				<Event Name="Kraken_ataque" ID="{F236A548-88A2-4281-BD27-E7C63327C06F}"/>
-				<Event Name="Play_open" ID="{C466165E-1AEF-414E-9409-FEDF7EACCE68}"/>
 				<Event Name="Play_cuchillo" ID="{3092517B-7840-4994-A41D-CF7603B242B0}">
 					<ChildrenList>
 						<Action Name="" ID="{BA73F88B-F763-4A35-A0CD-58D8260C6FFB}" ShortID="896186984">

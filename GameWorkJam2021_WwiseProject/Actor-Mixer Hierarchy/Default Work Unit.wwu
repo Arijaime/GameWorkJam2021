@@ -2,10 +2,22 @@
 <WwiseDocument Type="WorkUnit" ID="{7CE40F40-80A6-4B87-81E4-ABA5DB6FC691}" SchemaVersion="103">
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{7CE40F40-80A6-4B87-81E4-ABA5DB6FC691}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="13"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<Folder Name="All" ID="{1EE2F7CE-F2CD-458D-8E61-4CE968CD2969}" ShortID="419130234">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="11"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Folder Name="Ambientes" ID="{9CC52C98-ED1A-44A6-BDC7-4DF8B5D3E536}" ShortID="496064263">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="19"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ChildrenList>
 								<SwitchContainer Name="Ambientes" ID="{8F80D146-4B18-4D17-A1FB-2B93FA403F75}" ShortID="667197441">
 									<PropertyList>
@@ -22,7 +34,7 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
 										</Reference>
 										<Reference Name="SwitchGroupOrStateGroup">
-											<ObjectRef Name="Ambientes" ID="{2C1B685E-5A5F-49C5-AD73-8A997779217F}" WorkUnitID="{4324FECD-B01E-4BE8-AD51-FCAE6A905534}"/>
+											<ObjectRef Name="Niveles" ID="{2C1B685E-5A5F-49C5-AD73-8A997779217F}" WorkUnitID="{4324FECD-B01E-4BE8-AD51-FCAE6A905534}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -31,7 +43,7 @@
 												<Property Name="BlendBehavior" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-2</Value>
+														<Value>-16</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -48,6 +60,11 @@
 													<PropertyList>
 														<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-6</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -165,6 +182,29 @@
 																<ActiveSource Name="Wwise Silence" ID="{861B6C99-C077-4E04-A05F-C2DB76AAF854}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
+														<Sound Name="Silence2" ID="{DD4440BE-D8DD-406B-B4C1-DDF4AFEAB017}" ShortID="558785118">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<SourcePlugin Name="Wwise Silence" ID="{5D9D1889-40A0-4331-8848-2E7A3A5AE924}" ShortID="365025327" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+																	<PropertyList>
+																		<Property Name="Length" Type="Real32" Value="7"/>
+																		<Property Name="LengthMax" Type="Real32" Value="7.5"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																</SourcePlugin>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="Wwise Silence" ID="{5D9D1889-40A0-4331-8848-2E7A3A5AE924}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
 													</ChildrenList>
 													<ObjectLists/>
 												</RandomSequenceContainer>
@@ -252,6 +292,11 @@
 												<Sound Name="amb_N1-001" ID="{4EB06228-925F-4A5D-897D-5CC6C8FF056A}" ShortID="681137304">
 													<PropertyList>
 														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-2</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -283,6 +328,11 @@
 												<Sound Name="amb_N1-002" ID="{5A5E4AE7-976C-4001-A20A-6291A48E6136}" ShortID="665435065">
 													<PropertyList>
 														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-4</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -317,7 +367,7 @@
 														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-8</Value>
+																<Value>-12</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -552,18 +602,16 @@
 													<ItemRef Name="Menu" ID="{8221CA72-D35D-4259-AD30-613C4009B661}"/>
 												</ItemList>
 											</Grouping>
-											<Grouping>
-												<SwitchRef Name="Nivel_2" ID="{99E33EDB-CA56-4CBE-A1C5-232A51C3E504}"/>
-												<ItemList>
-													<ItemRef Name="Nivel_2" ID="{244FACEB-91C4-4AF1-803A-624A6666A93E}"/>
-												</ItemList>
-											</Grouping>
 										</GroupingList>
 									</GroupingInfo>
 								</SwitchContainer>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Ui" ID="{01DF4E27-8F2E-4ECE-A8DB-2615C6473752}" ShortID="487833342">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="8"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ChildrenList>
 								<Sound Name="ui-001" ID="{9FEE851A-789B-46D3-A59A-87C6EC3B9436}" ShortID="827328453">
 									<ReferenceList>
@@ -591,10 +639,19 @@
 							</ChildrenList>
 						</Folder>
 						<Folder Name="cofres" ID="{1D0732B2-5DA1-4758-9278-0C5651DE0DEE}" ShortID="1042628252">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="4"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ChildrenList>
 								<RandomSequenceContainer Name="cofre" ID="{444B0236-6579-43B9-9758-E89BE934C3D2}" ShortID="386732701">
 									<PropertyList>
 										<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2.5</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -655,6 +712,13 @@
 									<ObjectLists/>
 								</RandomSequenceContainer>
 								<Sound Name="cofres" ID="{0907A440-EFB3-4E1D-B26F-2D3854927E5C}" ShortID="25303037">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
@@ -817,8 +881,19 @@
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Enki" ID="{BB2FA855-09B5-4111-9ED9-03323E1419BD}" ShortID="228754453">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="10"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ChildrenList>
 								<Sound Name="enki_hunde" ID="{7783F704-ED56-4AE5-AB15-644700AACA74}" ShortID="948915896">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
@@ -852,7 +927,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-3</Value>
+												<Value>-10</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -968,7 +1043,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-3</Value>
+												<Value>-16</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1002,7 +1077,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-2</Value>
+												<Value>-3.1</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1016,6 +1091,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="enki_ataque-001" ID="{56405A51-E4BF-4B28-BCC8-26FAE414C16B}" ShortID="1022349222">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3.2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
@@ -1039,6 +1121,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="enki_ataque-002" ID="{73070FF5-EE39-44BE-AC5D-F3709E894940}" ShortID="357887822">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5.5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
@@ -1062,6 +1151,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="enki_ataque" ID="{C6611060-1AA2-4683-9091-3674CD4F96EE}" ShortID="196180396">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4.9</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
@@ -1091,7 +1187,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-4</Value>
+												<Value>-8</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1105,6 +1201,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="enki_damage-001" ID="{1C25F899-89AE-4BB3-B5D8-8E1820530A66}" ShortID="211371629">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
@@ -1128,6 +1231,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="enki_damage" ID="{1838BF29-C5D3-4FE8-B73C-0C5F4FEA2807}" ShortID="306597546">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>0.3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
@@ -1153,6 +1263,16 @@
 									</ChildrenList>
 									<ObjectLists/>
 								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Enemigos" ID="{97CDB3B8-2C25-4065-99A6-5AE77D08BD46}" ShortID="758453854">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="16"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Folder Name="kraken" ID="{F47F1278-430D-49FB-B73A-EC535FE64CD2}" ShortID="98438441"/>
+								<Folder Name="calamares" ID="{F3B805E0-BEBC-4694-B08A-3C1B7D5C1F01}" ShortID="228991572"/>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

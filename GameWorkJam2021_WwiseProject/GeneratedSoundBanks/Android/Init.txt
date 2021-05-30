@@ -1,11 +1,19 @@
 State Group	ID	Name			Wwise Object Path	Notes
-	1014953671	Ambientes			\Default Work Unit\Ambientes	
+	1183243228	New_State_Group_02			\Default Work Unit\Musica\New_State_Group_02	
+	1183243231	New_State_Group_01			\Default Work Unit\Musica\New_State_Group_01	
+	2229846799	Niveles			\Default Work Unit\Niveles	
+	2397100949	Lvl_1			\Default Work Unit\Musica\Lvl_1	
 
 State	ID	Name	State Group			Notes
-	748895195	None	Ambientes			
-	2607556080	Menu	Ambientes			
-	2666064984	Nivel_2	Ambientes			
-	2666064987	Nivel_1	Ambientes			
+	748895195	None	New_State_Group_02			
+	748895195	None	New_State_Group_01			
+	748895195	None	Niveles			
+	2607556080	Menu	Niveles			
+	2666064987	Nivel_1	Niveles			
+	84696444	C	Lvl_1			
+	84696445	B	Lvl_1			
+	84696446	A	Lvl_1			
+	748895195	None	Lvl_1			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	

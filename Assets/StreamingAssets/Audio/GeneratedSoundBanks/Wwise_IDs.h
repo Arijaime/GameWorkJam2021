@@ -27,18 +27,50 @@ namespace AK
 
     namespace STATES
     {
-        namespace AMBIENTES
+        namespace LVL_1
         {
-            static const AkUniqueID GROUP = 1014953671U;
+            static const AkUniqueID GROUP = 2397100949U;
+
+            namespace STATE
+            {
+                static const AkUniqueID A = 84696446U;
+                static const AkUniqueID B = 84696445U;
+                static const AkUniqueID C = 84696444U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace LVL_1
+
+        namespace NEW_STATE_GROUP_01
+        {
+            static const AkUniqueID GROUP = 1183243231U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace NEW_STATE_GROUP_01
+
+        namespace NEW_STATE_GROUP_02
+        {
+            static const AkUniqueID GROUP = 1183243228U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace NEW_STATE_GROUP_02
+
+        namespace NIVELES
+        {
+            static const AkUniqueID GROUP = 2229846799U;
 
             namespace STATE
             {
                 static const AkUniqueID MENU = 2607556080U;
                 static const AkUniqueID NIVEL_1 = 2666064987U;
-                static const AkUniqueID NIVEL_2 = 2666064984U;
                 static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
-        } // namespace AMBIENTES
+        } // namespace NIVELES
 
     } // namespace STATES
 

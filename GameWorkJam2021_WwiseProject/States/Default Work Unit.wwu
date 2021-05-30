@@ -3,12 +3,11 @@
 	<States>
 		<WorkUnit Name="Default Work Unit" ID="{4324FECD-B01E-4BE8-AD51-FCAE6A905534}" PersistMode="Standalone">
 			<ChildrenList>
-				<StateGroup Name="Ambientes" ID="{2C1B685E-5A5F-49C5-AD73-8A997779217F}">
+				<StateGroup Name="Niveles" ID="{2C1B685E-5A5F-49C5-AD73-8A997779217F}">
 					<ChildrenList>
 						<State Name="None" ID="{6C8B534D-40D6-4F7F-9635-5DF248B7F5B1}"/>
 						<State Name="Menu" ID="{5A8529D8-5DBA-44AA-8BD9-62F2BBED7FF2}"/>
 						<State Name="Nivel_1" ID="{316D7063-3710-4242-999B-772E96E6FE54}"/>
-						<State Name="Nivel_2" ID="{99E33EDB-CA56-4CBE-A1C5-232A51C3E504}"/>
 					</ChildrenList>
 				</StateGroup>
 				<Folder Name="Musica" ID="{F7021A66-1CF0-4057-AB95-10B598F17B8B}" ShortID="64726214">

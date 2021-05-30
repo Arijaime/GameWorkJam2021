@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="997575629" Language="SFX" Hash="137644304">
+		<SoundBank Id="997575629" Language="SFX" Hash="3670296247">
 			<ObjectPath>\SoundBanks\Default Work Unit\Jambank</ObjectPath>
 			<ShortName>Jambank</ShortName>
 			<Path>Jambank.bnk</Path>
@@ -25,7 +25,7 @@
 				<Event Id="1880221935" Name="HP_salud" ObjectPath="\Events\Default Work Unit\HP_salud" DurationType="OneShot" DurationMin="1.478898" DurationMax="1.487365"/>
 				<Event Id="3287567335" Name="Inicia_game" ObjectPath="\Events\Default Work Unit\Inicia_game" DurationType="Infinite">
 					<ActionSetState>
-						<ActionSetStateEntry Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Ambientes\None"/>
+						<ActionSetStateEntry Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Niveles\None"/>
 					</ActionSetState>
 				</Event>
 				<Event Id="3707565963" Name="Play_cuchillo" ObjectPath="\Events\Default Work Unit\Play_cuchillo" DurationType="OneShot" DurationMin="1.073061" DurationMax="1.419796"/>
@@ -59,6 +59,14 @@
 				<File Id="160086623" Language="SFX">
 					<ShortName>enki_mueve.wav</ShortName>
 					<Path>SFX\enki_mueve_3F75BDB9.wem</Path>
+				</File>
+				<File Id="166821359" Language="SFX">
+					<ShortName>menu_theme_v2.wav</ShortName>
+					<Path>SFX\menu_theme_v2_9EDFC787.wem</Path>
+				</File>
+				<File Id="169090163" Language="SFX">
+					<ShortName>menu_theme_v2_loop.wav</ShortName>
+					<Path>SFX\menu_theme_v2_loop_9EDFC787.wem</Path>
 				</File>
 				<File Id="174522978" Language="SFX">
 					<ShortName>enki_hunde.wav</ShortName>
@@ -120,9 +128,17 @@
 					<ShortName>cofres-003.wav</ShortName>
 					<Path>SFX\cofres-003_3F75BDB9.wem</Path>
 				</File>
+				<File Id="650558789" Language="SFX">
+					<ShortName>lvl_1_B_percu.wav</ShortName>
+					<Path>SFX\lvl_1_B_percu_9EDFC787.wem</Path>
+				</File>
+				<File Id="667001359" Language="SFX">
+					<ShortName>lvl_1_B.wav</ShortName>
+					<Path>SFX\lvl_1_B_9EDFC787.wem</Path>
+				</File>
 				<File Id="669203351" Language="SFX">
 					<ShortName>enki_propulsion.wav</ShortName>
-					<Path>SFX\enki_propulsion_556A3D8E.wem</Path>
+					<Path>SFX\enki_propulsion_239148EC.wem</Path>
 				</File>
 				<File Id="790463083" Language="SFX">
 					<ShortName>amb_menu.wav</ShortName>
@@ -136,6 +152,10 @@
 					<ShortName>amb_menu-001.wav</ShortName>
 					<Path>SFX\amb_menu-001_A3B0E7C1.wem</Path>
 				</File>
+				<File Id="913408098" Language="SFX">
+					<ShortName>lvl_1_A.wav</ShortName>
+					<Path>SFX\lvl_1_A_9EDFC787.wem</Path>
+				</File>
 				<File Id="978636148" Language="SFX">
 					<ShortName>enki_ataque.wav</ShortName>
 					<Path>SFX\enki_ataque_3F75BDB9.wem</Path>
@@ -146,24 +166,31 @@
 				</File>
 				<File Id="1021825048" Language="SFX">
 					<ShortName>enki_mueve-002.wav</ShortName>
-					<Path>SFX\enki_mueve-002_4AC28D8C.wem</Path>
+					<Path>SFX\enki_mueve-002_3C22CB10.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 			<StateGroups>
-				<StateGroup Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Ambientes\None">
+				<StateGroup Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Niveles\None">
 					<States/>
 				</StateGroup>
-				<StateGroup Id="1014953671" Name="Ambientes" ObjectPath="\States\Default Work Unit\Ambientes">
+				<StateGroup Id="2229846799" Name="Niveles" ObjectPath="\States\Default Work Unit\Niveles">
 					<States>
-						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Ambientes\None"/>
-						<State Id="2607556080" Name="Menu" ObjectPath="\States\Default Work Unit\Ambientes\Menu"/>
-						<State Id="2666064987" Name="Nivel_1" ObjectPath="\States\Default Work Unit\Ambientes\Nivel_1"/>
-						<State Id="2666064984" Name="Nivel_2" ObjectPath="\States\Default Work Unit\Ambientes\Nivel_2"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Niveles\None"/>
+						<State Id="2607556080" Name="Menu" ObjectPath="\States\Default Work Unit\Niveles\Menu"/>
+						<State Id="2666064987" Name="Nivel_1" ObjectPath="\States\Default Work Unit\Niveles\Nivel_1"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2397100949" Name="Lvl_1" ObjectPath="\States\Default Work Unit\Musica\Lvl_1">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Musica\Lvl_1\None"/>
+						<State Id="84696446" Name="A" ObjectPath="\States\Default Work Unit\Musica\Lvl_1\A"/>
+						<State Id="84696445" Name="B" ObjectPath="\States\Default Work Unit\Musica\Lvl_1\B"/>
+						<State Id="84696444" Name="C" ObjectPath="\States\Default Work Unit\Musica\Lvl_1\C"/>
 					</States>
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="4207704532">
+		<SoundBank Id="1355168291" Language="SFX" Hash="358994097">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>

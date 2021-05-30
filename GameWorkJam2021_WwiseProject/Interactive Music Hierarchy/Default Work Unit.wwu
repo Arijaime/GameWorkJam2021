@@ -25,11 +25,6 @@
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="10"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-6</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1023,7 +1018,23 @@
 										<PathElementRef Name="A" ID="{0723058B-2CA8-435A-B6A0-B82436792001}"/>
 									</Path>
 									<AudioNodeInfo>
-										<NoObject Platform="Linked"/>
+										<AudioNodeRef Name="A" ID="{290B939A-27B3-4E4C-9653-0131D9CC6271}" WorkUnitID="{29AF0BB5-4076-4149-89D5-F8AFE9F99A96}" Platform="Linked"/>
+									</AudioNodeInfo>
+								</Entry>
+								<Entry>
+									<Path>
+										<PathElementRef Name="B" ID="{BD59A0A3-CF01-4BEE-A1CF-D0C392736489}"/>
+									</Path>
+									<AudioNodeInfo>
+										<AudioNodeRef Name="B" ID="{87523700-D9F7-45FA-8C36-136F337B4628}" WorkUnitID="{29AF0BB5-4076-4149-89D5-F8AFE9F99A96}" Platform="Linked"/>
+									</AudioNodeInfo>
+								</Entry>
+								<Entry>
+									<Path>
+										<PathElementRef Name="C" ID="{ADB51440-3092-4DE9-B936-7B57D42115EB}"/>
+									</Path>
+									<AudioNodeInfo>
+										<AudioNodeRef Name="C" ID="{0EAF2411-F9AF-4893-B696-D3C99B46A272}" WorkUnitID="{29AF0BB5-4076-4149-89D5-F8AFE9F99A96}" Platform="Linked"/>
 									</AudioNodeInfo>
 								</Entry>
 							</EntryList>
@@ -1043,6 +1054,27 @@
 						</MusicTransition>
 					</TransitionList>
 					<ObjectLists/>
+					<ArgumentList>
+						<ArgumentRef Name="Niveles" ID="{2C1B685E-5A5F-49C5-AD73-8A997779217F}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Menu" ID="{5A8529D8-5DBA-44AA-8BD9-62F2BBED7FF2}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Menu" ID="{FB03DECF-209B-4F99-AACB-992EFA22CAF1}" WorkUnitID="{29AF0BB5-4076-4149-89D5-F8AFE9F99A96}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Nivel_1" ID="{316D7063-3710-4242-999B-772E96E6FE54}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Lvl_1 ver que onda" ID="{62E90BFB-7447-40A0-BCFB-13078BAEFD29}" WorkUnitID="{29AF0BB5-4076-4149-89D5-F8AFE9F99A96}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
 				</MusicSwitchContainer>
 			</ChildrenList>
 		</WorkUnit>
