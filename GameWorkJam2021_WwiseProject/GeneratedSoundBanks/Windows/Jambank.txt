@@ -1,69 +1,46 @@
 Event	ID	Name			Wwise Object Path	Notes
-	151623893	Enki_mueve			\Default Work Unit\Enki_mueve	
 	922323882	Heart_open			\Default Work Unit\Heart_open	
-	1400791408	Enki_damage			\Default Work Unit\Enki_damage	
 	1880221935	HP_salud			\Default Work Unit\HP_salud	
-	2473879928	Enki_propulsion			\Default Work Unit\Enki_propulsion	
 	2728600545	Enki_hunde			\Default Work Unit\Enki_hunde	
 	2737623399	Play_monedas			\Default Work Unit\Play_monedas	
 	3287567335	Inicia_game			\Default Work Unit\Inicia_game	
-	3707565963	Play_cuchillo			\Default Work Unit\Play_cuchillo	
 	4046895995	Cofre_open			\Default Work Unit\Cofre_open	
 
 State Group	ID	Name			Wwise Object Path	Notes
-	2229846799	Niveles			\Default Work Unit\Niveles	
-	2397100949	Lvl_1			\Default Work Unit\Musica\Lvl_1	
+	1014953671	Ambientes			\Default Work Unit\Ambientes	
 
 State	ID	Name	State Group			Notes
-	748895195	None	Niveles			
-	2607556080	Menu	Niveles			
-	2666064987	Nivel_1	Niveles			
-	84696444	C	Lvl_1			
-	84696445	B	Lvl_1			
-	84696446	A	Lvl_1			
-	748895195	None	Lvl_1			
+	748895195	None	Ambientes			
+	2607556080	Menu	Ambientes			
+	2666064984	Nivel_2	Ambientes			
+	2666064987	Nivel_1	Ambientes			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	82925586	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Menu\amb_short\Silence\Wwise Silence	
-	365025327	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Menu\amb_short\Silence2\Wwise Silence	
 	412069537	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Nivel_1\Amb_short\New Sound SFX\Wwise Silence	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	16250013	enki_ataque-002	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\enki_ataque-002_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Enki\enki_ataque\enki_ataque-002		10042
-	37338373	cofres-002	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\cofres-002_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\cofres\cofre\cofres-002		62995
-	108789451	ui-001	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\ui-001_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ui\ui-001		6553
-	123025531	enki_mueve-001	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\enki_mueve-001_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Enki\enki_mueve\move\enki_mueve-001		20971
-	132529698	amb_N1	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\amb_N1_ED88C733.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Nivel_1\amb_N1		385537
-	154660183	HP	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\HP_BE65D834.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\cofres\HP\HP		19425
-	160086623	enki_mueve	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\enki_mueve_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Enki\enki_mueve\move\enki_mueve		20964
-	166821359	menu_theme_v2	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\menu_theme_v2_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Switch musicas\Menu\Menu_1ra_vuelta\menu_theme_v2		1785729
-	169090163	menu_theme_v2_loop	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\menu_theme_v2_loop_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Switch musicas\Menu\Menu_loop\menu_theme_v2_loop		1591922
-	174522978	enki_hunde	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\enki_hunde_0F548419.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Enki\enki_hunde		103092
-	182927797	amb_N1-002	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\amb_N1-002_2DE11343.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Nivel_1\amb_N1-002		326066
-	262218615	amb_N1_short-002	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\amb_N1_short-002_B8F2A363.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Nivel_1\Amb_short\amb_N1_short-002		83864
-	312430445	amb_menu_short-001	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\amb_menu_short-001_EB305268.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Menu\amb_short\amb_menu_short-001		60009
-	340904118	amb_menu_short-002	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\amb_menu_short-002_DA4E6437.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Menu\amb_short\amb_menu_short-002		188375
-	347754114	amb_menu_short	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\amb_menu_short_298BC212.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Menu\amb_short\amb_menu_short		136106
-	386922530	cofres	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\cofres_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\cofres\cofres		61086
-	419701707	moneda-001	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\moneda-001_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\cofres\Moneda\moneda-001		9827
-	460161884	enki_ataque-001	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\enki_ataque-001_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Enki\enki_ataque\enki_ataque-001		12703
-	474273289	moneda	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\moneda_351A3791.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\cofres\Moneda\moneda		10668
-	567185007	amb_N1_short-001	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\amb_N1_short-001_74DD0FF5.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Nivel_1\Amb_short\amb_N1_short-001		68169
-	579094329	enki_damage-001	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\enki_damage-001_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Enki\enki_damage\enki_damage-001		14878
-	626107001	enki_damage	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\enki_damage_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Enki\enki_damage\enki_damage		16969
-	628460631	HP-001	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\HP-001_DABEAED2.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\cofres\HP\HP-001		23024
-	641655162	cofres-003	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\cofres-003_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\cofres\cofre\cofres-003		67378
-	650558789	lvl_1_B_percu	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\lvl_1_B_percu_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Switch musicas\Lvl_1 ver que onda\B\B_1\lvl_1_B_percu		522238
-	667001359	lvl_1_B	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\lvl_1_B_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Switch musicas\Lvl_1 ver que onda\B\B_1\lvl_1_B		495019
-	669203351	enki_propulsion	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\enki_propulsion_239148EC.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Enki\enki_propulsion		23622
-	790463083	amb_menu	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\amb_menu_F92BD506.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Menu\amb_menu		333348
-	844657113	amb_N1-001	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\amb_N1-001_2CD56DEF.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Nivel_1\amb_N1-001		368523
-	854722470	amb_menu-001	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\amb_menu-001_A3B0E7C1.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Menu\amb_menu-001		273727
-	913408098	lvl_1_A	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\lvl_1_A_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Switch musicas\Lvl_1 ver que onda\A\A\lvl_1_A		584760
-	978636148	enki_ataque	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\enki_ataque_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Enki\enki_ataque\enki_ataque		12278
-	992919730	amb_N1_short	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\amb_N1_short_75832DB5.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Nivel_1\Amb_short\amb_N1_short		50015
-	1021825048	enki_mueve-002	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\enki_mueve-002_3C22CB10.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Enki\enki_mueve\enki_mueve-002		40346
+	37338373	cofres-002	C:\Users\Umbradev\Desktop\UnityProyects\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\cofres-002_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\cofres\cofre\cofres-002		62995
+	108789451	ui-001	C:\Users\Umbradev\Desktop\UnityProyects\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\ui-001_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ui\ui-001		6553
+	132529698	amb_N1	C:\Users\Umbradev\Desktop\UnityProyects\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\amb_N1_ED88C733.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Nivel_1\amb_N1		385537
+	154660183	HP	C:\Users\Umbradev\Desktop\UnityProyects\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\HP_BE65D834.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\cofres\HP\HP		19425
+	174522978	enki_hunde	C:\Users\Umbradev\Desktop\UnityProyects\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\enki_hunde_0F548419.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Enki\enki_hunde		103092
+	182927797	amb_N1-002	C:\Users\Umbradev\Desktop\UnityProyects\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\amb_N1-002_2DE11343.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Nivel_1\amb_N1-002		326066
+	262218615	amb_N1_short-002	C:\Users\Umbradev\Desktop\UnityProyects\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\amb_N1_short-002_B8F2A363.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Nivel_1\Amb_short\amb_N1_short-002		83864
+	312430445	amb_menu_short-001	C:\Users\Umbradev\Desktop\UnityProyects\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\amb_menu_short-001_EB305268.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Menu\amb_short\amb_menu_short-001		60009
+	340904118	amb_menu_short-002	C:\Users\Umbradev\Desktop\UnityProyects\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\amb_menu_short-002_DA4E6437.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Menu\amb_short\amb_menu_short-002		188375
+	347754114	amb_menu_short	C:\Users\Umbradev\Desktop\UnityProyects\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\amb_menu_short_298BC212.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Menu\amb_short\amb_menu_short		136106
+	386922530	cofres	C:\Users\Umbradev\Desktop\UnityProyects\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\cofres_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\cofres\cofres		61086
+	419701707	moneda-001	C:\Users\Umbradev\Desktop\UnityProyects\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\moneda-001_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\cofres\Moneda\moneda-001		9827
+	474273289	moneda	C:\Users\Umbradev\Desktop\UnityProyects\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\moneda_351A3791.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\cofres\Moneda\moneda		10668
+	567185007	amb_N1_short-001	C:\Users\Umbradev\Desktop\UnityProyects\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\amb_N1_short-001_74DD0FF5.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Nivel_1\Amb_short\amb_N1_short-001		68169
+	628460631	HP-001	C:\Users\Umbradev\Desktop\UnityProyects\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\HP-001_DABEAED2.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\cofres\HP\HP-001		23024
+	641655162	cofres-003	C:\Users\Umbradev\Desktop\UnityProyects\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\cofres-003_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\cofres\cofre\cofres-003		67378
+	790463083	amb_menu	C:\Users\Umbradev\Desktop\UnityProyects\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\amb_menu_F92BD506.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Menu\amb_menu		333348
+	844657113	amb_N1-001	C:\Users\Umbradev\Desktop\UnityProyects\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\amb_N1-001_2CD56DEF.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Nivel_1\amb_N1-001		368523
+	854722470	amb_menu-001	C:\Users\Umbradev\Desktop\UnityProyects\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\amb_menu-001_A3B0E7C1.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Menu\amb_menu-001		273727
+	992919730	amb_N1_short	C:\Users\Umbradev\Desktop\UnityProyects\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Windows\SFX\amb_N1_short_75832DB5.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Nivel_1\Amb_short\amb_N1_short		50015
 
