@@ -16,6 +16,7 @@ namespace AK
         static const AkUniqueID CALAMAR_ATAQUE = 1051062948U;
         static const AkUniqueID CALAMAR_MUERE = 2277376489U;
         static const AkUniqueID CALAMAR_PATRULLA = 2662779926U;
+        static const AkUniqueID CLICK = 1584507803U;
         static const AkUniqueID COFRE_OPEN = 4046895995U;
         static const AkUniqueID ENKI_DAMAGE = 1400791408U;
         static const AkUniqueID ENKI_HUNDE = 2728600545U;
@@ -27,7 +28,9 @@ namespace AK
         static const AkUniqueID KRAKEN_ATAQUE = 478551189U;
         static const AkUniqueID KRAKEN_INVOCA = 3405653998U;
         static const AkUniqueID KRAKEN_MUERE = 263201390U;
+        static const AkUniqueID PLAY_AXOLOTE = 886770258U;
         static const AkUniqueID PLAY_CUCHILLO = 3707565963U;
+        static const AkUniqueID PLAY_ENTER = 430668544U;
         static const AkUniqueID PLAY_MONEDAS = 2737623399U;
     } // namespace EVENTS
 

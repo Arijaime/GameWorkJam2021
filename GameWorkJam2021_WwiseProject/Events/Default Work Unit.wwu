@@ -69,7 +69,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_axolote" ID="{AF79F208-0FD6-41AF-A2FA-C267051E90CF}"/>
+				<Event Name="Play_axolote" ID="{AF79F208-0FD6-41AF-A2FA-C267051E90CF}">
+					<ChildrenList>
+						<Action Name="" ID="{41887071-572B-443C-8701-650ADD3B161F}" ShortID="448598468">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="axolote" ID="{FED29C0F-EBBE-45FB-95FF-B83DB764F11D}" WorkUnitID="{7CE40F40-80A6-4B87-81E4-ABA5DB6FC691}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="Cofre_open" ID="{5672221C-7409-48A8-9E02-5C74053C18FD}">
 					<ChildrenList>
 						<Action Name="" ID="{FE6C0582-EFF1-46F7-BA6A-ADA7D773235B}" ShortID="205853214">
@@ -136,7 +146,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Calamar_persigue" ID="{CCBB48DB-89FC-43DB-BDCE-E0119889E28B}"/>
 				<Event Name="Kraken_muere" ID="{06F1C939-A034-402F-A492-426328F9C88F}">
 					<ChildrenList>
 						<Action Name="" ID="{D1167738-D2D3-4D5F-8473-4F0FFA4AE274}" ShortID="397517887">
@@ -181,7 +190,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Algas_cut" ID="{893AEC12-9A5B-4C8F-9D8F-BC90FFC3BE6F}"/>
 				<Event Name="Enki_damage" ID="{D28391AF-C6E5-470A-9C60-BFC8408052E5}">
 					<ChildrenList>
 						<Action Name="" ID="{EDECFFFE-C401-4E79-8E12-0910D81102FF}" ShortID="276765764">
@@ -195,10 +203,10 @@
 				</Event>
 				<Event Name="Enki_propulsion" ID="{0F3187CE-7333-498D-B41C-E3126D592A64}">
 					<ChildrenList>
-						<Action Name="" ID="{7F9E9C65-D137-4629-9B7A-27B313A8E403}" ShortID="364611265">
+						<Action Name="" ID="{517AD29D-D31E-46F9-B209-28321B1B8AB1}" ShortID="921472414">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="enki_propulsion" ID="{E3774A2F-271A-414D-86AD-E98705F535B5}" WorkUnitID="{7CE40F40-80A6-4B87-81E4-ABA5DB6FC691}"/>
+									<ObjectRef Name="enki_propulsion" ID="{B44C515F-A154-4DBD-9673-7102A37639F5}" WorkUnitID="{7CE40F40-80A6-4B87-81E4-ABA5DB6FC691}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -228,10 +236,32 @@
 				</Event>
 				<Event Name="Play_monedas" ID="{310B9142-8EE0-4633-A6AA-54B8EFB05FC8}">
 					<ChildrenList>
-						<Action Name="" ID="{186BF9CC-0149-463E-B6CC-6181E14CC7E4}" ShortID="101327886">
+						<Action Name="" ID="{4449D980-FDC2-470B-8664-2D937DFE055B}" ShortID="1022521938">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Moneda" ID="{9850EA53-C538-40FC-844D-C028E3E2F771}" WorkUnitID="{7CE40F40-80A6-4B87-81E4-ABA5DB6FC691}"/>
+									<ObjectRef Name="monedas" ID="{210EE428-D0F2-4599-A86D-878BBF0A59B7}" WorkUnitID="{7CE40F40-80A6-4B87-81E4-ABA5DB6FC691}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Click" ID="{69341D9C-D85A-483C-BD80-5DB39B56AF88}">
+					<ChildrenList>
+						<Action Name="" ID="{C9191047-82EB-4E80-A038-F1F7341F1E7B}" ShortID="570071863">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Click" ID="{4686FF41-9520-48AD-826D-8D3CC9BB2D90}" WorkUnitID="{7CE40F40-80A6-4B87-81E4-ABA5DB6FC691}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_enter" ID="{42C67E6B-37F4-4B80-BC53-E040C3B1349A}">
+					<ChildrenList>
+						<Action Name="" ID="{F671E10E-5F44-416C-81B0-AE9CCDEC9AE9}" ShortID="1010050158">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI-004" ID="{7661DD0D-0CC8-4AD4-8F97-67B50C49E3D1}" WorkUnitID="{7CE40F40-80A6-4B87-81E4-ABA5DB6FC691}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

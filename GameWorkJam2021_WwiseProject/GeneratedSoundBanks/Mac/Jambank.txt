@@ -1,10 +1,13 @@
 Event	ID	Name			Wwise Object Path	Notes
 	151623893	Enki_mueve			\Default Work Unit\Enki_mueve	
 	263201390	Kraken_muere			\Default Work Unit\Kraken_muere	
+	430668544	Play_enter			\Default Work Unit\Play_enter	
 	478551189	Kraken_ataque			\Default Work Unit\Kraken_ataque	
+	886770258	Play_axolote			\Default Work Unit\Play_axolote	
 	922323882	Heart_open			\Default Work Unit\Heart_open	
 	1051062948	Calamar_ataque			\Default Work Unit\Calamar_ataque	
 	1400791408	Enki_damage			\Default Work Unit\Enki_damage	
+	1584507803	Click			\Default Work Unit\Click	
 	1880221935	HP_salud			\Default Work Unit\HP_salud	
 	2277376489	Calamar_muere			\Default Work Unit\Calamar_muere	
 	2473879928	Enki_propulsion			\Default Work Unit\Enki_propulsion	
@@ -40,26 +43,32 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	16250013	enki_ataque-002	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\enki_ataque-002_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Enki\enki_ataque\enki_ataque-002		10042
 	37338373	cofres-002	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\cofres-002_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\cofres\cofre\cofres-002		62995
-	108789451	ui-001	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\ui-001_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ui\ui-001		6553
+	108789451	ui-001	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\ui-001_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ui\Click\ui-001		9447
 	123025531	enki_mueve-001	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\enki_mueve-001_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Enki\enki_mueve\move\enki_mueve-001		20971
+	127024018	axolote-004	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\axolote-004_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\axolote\axolote\axolote-004		4898
 	132529698	amb_N1	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\amb_N1_ED88C733.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Nivel_1\amb_N1		385537
 	154660183	HP	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\HP_BE65D834.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\cofres\HP\HP		19425
 	160086623	enki_mueve	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\enki_mueve_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Enki\enki_mueve\move\enki_mueve		20964
-	162382978	calamar-patrulla	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\calamar-patrulla_D603CDF5.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Enemigos\calamares\calamar-patrulla		20964
+	162382978	calamar-patrulla	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\calamar-patrulla_6C7F1BFE.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Enemigos\calamares\calamar-patrulla		20964
 	166821359	menu_theme_v2	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\menu_theme_v2_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Switch musicas\Menu\Menu_1ra_vuelta\menu_theme_v2		1785729
 	169090163	menu_theme_v2_loop	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\menu_theme_v2_loop_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Switch musicas\Menu\Menu_loop\menu_theme_v2_loop		1591922
 	174522978	enki_hunde	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\enki_hunde_0F548419.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Enki\enki_hunde		103092
 	182927797	amb_N1-002	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\amb_N1-002_2DE11343.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Nivel_1\amb_N1-002		326066
-	255093735	calamar ataque	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\calamar ataque_CA8A8591.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Enemigos\calamares\ataque calamar\calamar ataque		12005
+	222712055	axolote-003	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\axolote-003_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\axolote\axolote\axolote-003		6623
+	255093735	calamar ataque	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\calamar ataque_C00320DA.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Enemigos\calamares\ataque calamar\calamar ataque		12005
 	262218615	amb_N1_short-002	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\amb_N1_short-002_B8F2A363.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Nivel_1\Amb_short\amb_N1_short-002		83864
+	286200543	UI-002	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\UI-002_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ui\Click\UI-002		4946
 	312430445	amb_menu_short-001	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\amb_menu_short-001_EB305268.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Menu\amb_short\amb_menu_short-001		60009
 	340904118	amb_menu_short-002	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\amb_menu_short-002_DA4E6437.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Menu\amb_short\amb_menu_short-002		188375
+	343527507	monedas	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\monedas_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\cofres\monedas		9307
 	347754114	amb_menu_short	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\amb_menu_short_298BC212.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Menu\amb_short\amb_menu_short		136106
+	376340969	UI-003	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\UI-003_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ui\Click\UI-003		4961
+	381900270	axolote-005	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\axolote-005_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\axolote\axolote\axolote-005		6363
 	386922530	cofres	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\cofres_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\cofres\cofres		61086
-	419701707	moneda-001	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\moneda-001_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\cofres\Moneda\moneda-001		9827
-	423270055	calamar ataque-001	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\calamar ataque-001_79A71402.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Enemigos\calamares\ataque calamar\calamar ataque-001		13593
+	423270055	calamar ataque-001	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\calamar ataque-001_A2187B74.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Enemigos\calamares\ataque calamar\calamar ataque-001		13593
+	439419480	UI-005	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\UI-005_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ui\Click\UI-005		7980
 	460161884	enki_ataque-001	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\enki_ataque-001_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Enki\enki_ataque\enki_ataque-001		12703
-	474273289	moneda	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\moneda_351A3791.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\cofres\Moneda\moneda		10668
+	512725795	axolote-002	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\axolote-002_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\axolote\axolote\axolote-002		7101
 	567185007	amb_N1_short-001	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\amb_N1_short-001_74DD0FF5.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Nivel_1\Amb_short\amb_N1_short-001		68169
 	579094329	enki_damage-001	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\enki_damage-001_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Enki\enki_damage\enki_damage-001		14878
 	597679317	kraken-ataque	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\kraken-ataque_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Enemigos\kraken\kraken-ataque		35458
@@ -68,12 +77,14 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	641655162	cofres-003	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\cofres-003_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\cofres\cofre\cofres-003		67378
 	650558789	lvl_1_B_percu	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\lvl_1_B_percu_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Switch musicas\Lvl_1 ver que onda\B\B_1\lvl_1_B_percu		522238
 	667001359	lvl_1_B	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\lvl_1_B_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Switch musicas\Lvl_1 ver que onda\B\B_1\lvl_1_B		495019
-	669203351	enki_propulsion	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\enki_propulsion_239148EC.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Enki\enki_propulsion		23622
+	669203351	enki_propulsion	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\enki_propulsion_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Enki\enki_propulsion		47771
 	681815363	kraken-001	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\kraken-001_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Enemigos\kraken\kraken-001		42150
+	699194492	axolote-001	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\axolote-001_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\axolote\axolote\axolote-001		6433
 	790463083	amb_menu	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\amb_menu_F92BD506.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Menu\amb_menu		333348
 	844657113	amb_N1-001	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\amb_N1-001_2CD56DEF.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Nivel_1\amb_N1-001		368523
 	854722470	amb_menu-001	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\amb_menu-001_A3B0E7C1.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ambientes\Ambientes\Menu\amb_menu-001		273727
-	872286484	calamar muere	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\calamar muere_049FC0F8.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Enemigos\calamares\calamar muere		18061
+	865806117	UI-004	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\UI-004_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Ui\UI-004		10998
+	872286484	calamar muere	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\calamar muere_1D095FF8.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Enemigos\calamares\calamar muere		18061
 	882794354	kraken-002	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\kraken-002_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Enemigos\kraken\kraken-002		23750
 	913408098	lvl_1_A	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\lvl_1_A_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Switch musicas\Lvl_1 ver que onda\A\A\lvl_1_A		584760
 	978636148	enki_ataque	K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Mac\SFX\enki_ataque_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\All\Enki\enki_ataque\enki_ataque		12278

@@ -613,7 +613,7 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 							<ChildrenList>
-								<Sound Name="ui-001" ID="{9FEE851A-789B-46D3-A59A-87C6EC3B9436}" ShortID="827328453">
+								<Sound Name="UI-004" ID="{7661DD0D-0CC8-4AD4-8F97-67B50C49E3D1}" ShortID="324774778">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
@@ -623,19 +623,124 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="ui-001" ID="{22930A56-F8D2-4CEB-B1FD-3970E91107C0}">
+										<AudioFileSource Name="UI-004" ID="{B3DF394E-76FE-4235-8BAA-34476BA657C3}">
 											<Language>SFX</Language>
-											<AudioFile>ui-001.wav</AudioFile>
+											<AudioFile>UI-004.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="108789451"/>
+												<MediaID ID="865806117"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="ui-001" ID="{22930A56-F8D2-4CEB-B1FD-3970E91107C0}" Platform="Linked"/>
+										<ActiveSource Name="UI-004" ID="{B3DF394E-76FE-4235-8BAA-34476BA657C3}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<RandomSequenceContainer Name="Click" ID="{4686FF41-9520-48AD-826D-8D3CC9BB2D90}" ShortID="528017790">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="ui-001" ID="{9FEE851A-789B-46D3-A59A-87C6EC3B9436}" ShortID="827328453">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ui-001" ID="{22930A56-F8D2-4CEB-B1FD-3970E91107C0}">
+													<Language>SFX</Language>
+													<AudioFile>ui-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="108789451"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="ui-001" ID="{22930A56-F8D2-4CEB-B1FD-3970E91107C0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI-002" ID="{2412F065-B71B-4114-A919-7C185200F944}" ShortID="346497829">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI-002" ID="{5807C9A8-04F7-4599-92C4-B4F6DA3D70A8}">
+													<Language>SFX</Language>
+													<AudioFile>UI-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="286200543"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="UI-002" ID="{5807C9A8-04F7-4599-92C4-B4F6DA3D70A8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI-003" ID="{2A1A4DEF-CC66-402D-9ACC-BE10C5B41D92}" ShortID="948185421">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI-003" ID="{8034C243-136F-42DA-90BC-F7546D1918B3}">
+													<Language>SFX</Language>
+													<AudioFile>UI-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="376340969"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="UI-003" ID="{8034C243-136F-42DA-90BC-F7546D1918B3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI-005" ID="{D94FE031-F1C6-4704-B289-AC02D90D4CAF}" ShortID="310441949">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI-005" ID="{7FF86913-573F-4D52-882C-4CB7C89BAA2B}">
+													<Language>SFX</Language>
+													<AudioFile>UI-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="439419480"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="UI-005" ID="{7FF86913-573F-4D52-882C-4CB7C89BAA2B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="cofres" ID="{1D0732B2-5DA1-4758-9278-0C5651DE0DEE}" ShortID="1042628252">
@@ -816,7 +921,7 @@
 									</ChildrenList>
 									<ObjectLists/>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Moneda" ID="{9850EA53-C538-40FC-844D-C028E3E2F771}" ShortID="165816559">
+								<Sound Name="monedas" ID="{210EE428-D0F2-4599-A86D-878BBF0A59B7}" ShortID="1027617958">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
@@ -826,58 +931,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="moneda" ID="{3D3F1E1F-562A-4195-B51C-9F7D306421E2}" ShortID="540071440">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="moneda" ID="{7C8B57FD-8960-48D7-87C3-1DDA4165E994}">
-													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.33707650273224"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>moneda.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="474273289"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="moneda" ID="{7C8B57FD-8960-48D7-87C3-1DDA4165E994}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="moneda-001" ID="{D2C924D1-6083-465D-8FF3-87E38527EDB9}" ShortID="512234626">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="moneda-001" ID="{87E8AE73-8E94-427B-AE6B-D46449AAE451}">
-													<Language>SFX</Language>
-													<AudioFile>moneda-001.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="419701707"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="moneda-001" ID="{87E8AE73-8E94-427B-AE6B-D46449AAE451}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
+										<AudioFileSource Name="monedas" ID="{0B2351AC-F9AC-429B-8B2F-C4CFF6FEB815}">
+											<Language>SFX</Language>
+											<AudioFile>monedas.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="343527507"/>
+											</MediaIDList>
+										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
-								</RandomSequenceContainer>
+									<ActiveSourceList>
+										<ActiveSource Name="monedas" ID="{0B2351AC-F9AC-429B-8B2F-C4CFF6FEB815}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Enki" ID="{BB2FA855-09B5-4111-9ED9-03323E1419BD}" ShortID="228754453">
@@ -1039,40 +1105,6 @@
 									</ChildrenList>
 									<ObjectLists/>
 								</BlendContainer>
-								<Sound Name="enki_propulsion" ID="{E3774A2F-271A-414D-86AD-E98705F535B5}" ShortID="686140923">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-16</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="enki_propulsion" ID="{576E29E8-D545-4DFF-B810-584933281DEC}">
-											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.052226022163571"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.633833996257884"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>enki_propulsion.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="669203351"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="enki_propulsion" ID="{576E29E8-D545-4DFF-B810-584933281DEC}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<RandomSequenceContainer Name="enki_ataque" ID="{033468C3-8A1A-45C4-94BC-421CB777CB1D}" ShortID="928961888">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
@@ -1263,6 +1295,29 @@
 									</ChildrenList>
 									<ObjectLists/>
 								</RandomSequenceContainer>
+								<Sound Name="enki_propulsion" ID="{B44C515F-A154-4DBD-9673-7102A37639F5}" ShortID="255577943">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="enki_propulsion" ID="{69557062-2B94-4A27-89E2-395CB9E3CD24}">
+											<Language>SFX</Language>
+											<AudioFile>enki_propulsion.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="669203351"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="enki_propulsion" ID="{69557062-2B94-4A27-89E2-395CB9E3CD24}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Enemigos" ID="{97CDB3B8-2C25-4065-99A6-5AE77D08BD46}" ShortID="758453854">
@@ -1475,6 +1530,138 @@
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="axolote" ID="{CCA2C0D0-805A-4FA9-9279-B6A2C167C9AC}" ShortID="191491267">
+							<ChildrenList>
+								<RandomSequenceContainer Name="axolote" ID="{FED29C0F-EBBE-45FB-95FF-B83DB764F11D}" ShortID="504255842">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="axolote-001" ID="{263FBEDE-43BA-43A3-B50B-B2C427B7EE19}" ShortID="534838232">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="axolote-001" ID="{55F98682-FA25-4538-A21B-D3F2AFC53F56}">
+													<Language>SFX</Language>
+													<AudioFile>axolote-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="699194492"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="axolote-001" ID="{55F98682-FA25-4538-A21B-D3F2AFC53F56}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="axolote-002" ID="{5C9502B7-92D2-4639-87C8-554DE07B70E7}" ShortID="970149307">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="axolote-002" ID="{73235115-1D7D-4301-8BD3-E686CE156B45}">
+													<Language>SFX</Language>
+													<AudioFile>axolote-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="512725795"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="axolote-002" ID="{73235115-1D7D-4301-8BD3-E686CE156B45}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="axolote-003" ID="{D1C65048-F447-4C9B-8BD0-EDEC4235322C}" ShortID="23053100">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="axolote-003" ID="{DDE5F7AB-C22A-46F1-82DB-750A7C26C224}">
+													<Language>SFX</Language>
+													<AudioFile>axolote-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="222712055"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="axolote-003" ID="{DDE5F7AB-C22A-46F1-82DB-750A7C26C224}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="axolote-004" ID="{91612708-DD8A-4AC8-8E4B-EFE395CEE832}" ShortID="1052085369">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="axolote-004" ID="{EAF71F1B-71BD-4C9A-A9A6-68F8EF8CE139}">
+													<Language>SFX</Language>
+													<AudioFile>axolote-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="127024018"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="axolote-004" ID="{EAF71F1B-71BD-4C9A-A9A6-68F8EF8CE139}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="axolote-005" ID="{1E456FF6-50E9-4E02-BCF0-03086010E216}" ShortID="272016172">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="axolote-005" ID="{E909B1EE-F516-4FD6-9C0C-D77635ABF0CA}">
+													<Language>SFX</Language>
+													<AudioFile>axolote-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="381900270"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="axolote-005" ID="{E909B1EE-F516-4FD6-9C0C-D77635ABF0CA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

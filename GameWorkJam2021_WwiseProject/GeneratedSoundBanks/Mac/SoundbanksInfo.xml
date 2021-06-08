@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="997575629" Language="SFX" Hash="1856703180">
+		<SoundBank Id="997575629" Language="SFX" Hash="1996238330">
 			<ObjectPath>\SoundBanks\Default Work Unit\Jambank</ObjectPath>
 			<ShortName>Jambank</ShortName>
 			<Path>Jambank.bnk</Path>
@@ -19,11 +19,12 @@
 				<Event Id="1051062948" Name="Calamar_ataque" ObjectPath="\Events\Default Work Unit\Calamar_ataque" DurationType="OneShot" DurationMin="0.890394" DurationMax="1.031043"/>
 				<Event Id="2277376489" Name="Calamar_muere" ObjectPath="\Events\Default Work Unit\Calamar_muere" DurationType="OneShot" DurationMin="1.378630" DurationMax="1.378630"/>
 				<Event Id="2662779926" Name="Calamar_patrulla" ObjectPath="\Events\Default Work Unit\Calamar_patrulla" DurationType="OneShot" DurationMin="1.490522" DurationMax="1.490522"/>
+				<Event Id="1584507803" Name="Click" ObjectPath="\Events\Default Work Unit\Click" DurationType="OneShot" DurationMin="0.469093" DurationMax="1.018549"/>
 				<Event Id="4046895995" Name="Cofre_open" ObjectPath="\Events\Default Work Unit\Cofre_open" DurationType="OneShot" DurationMin="4.171021" DurationMax="4.229456"/>
 				<Event Id="1400791408" Name="Enki_damage" ObjectPath="\Events\Default Work Unit\Enki_damage" DurationType="OneShot" DurationMin="1.497642" DurationMax="1.830612"/>
 				<Event Id="2728600545" Name="Enki_hunde" ObjectPath="\Events\Default Work Unit\Enki_hunde" DurationType="OneShot" DurationMin="4.714109" DurationMax="4.714109"/>
 				<Event Id="151623893" Name="Enki_mueve" ObjectPath="\Events\Default Work Unit\Enki_mueve" DurationType="OneShot" DurationMin="3.014363" DurationMax="3.014363"/>
-				<Event Id="2473879928" Name="Enki_propulsion" ObjectPath="\Events\Default Work Unit\Enki_propulsion" DurationType="OneShot" DurationMin="2.606553" DurationMax="2.606553"/>
+				<Event Id="2473879928" Name="Enki_propulsion" ObjectPath="\Events\Default Work Unit\Enki_propulsion" DurationType="OneShot" DurationMin="3.330295" DurationMax="3.330295"/>
 				<Event Id="922323882" Name="Heart_open" ObjectPath="\Events\Default Work Unit\Heart_open" DurationType="OneShot" DurationMin="3.771791" DurationMax="3.771791"/>
 				<Event Id="1880221935" Name="HP_salud" ObjectPath="\Events\Default Work Unit\HP_salud" DurationType="OneShot" DurationMin="1.478898" DurationMax="1.487365"/>
 				<Event Id="3287567335" Name="Inicia_game" ObjectPath="\Events\Default Work Unit\Inicia_game" DurationType="Infinite">
@@ -34,8 +35,10 @@
 				<Event Id="478551189" Name="Kraken_ataque" ObjectPath="\Events\Default Work Unit\Kraken_ataque" DurationType="OneShot" DurationMin="2.925011" DurationMax="2.925011"/>
 				<Event Id="3405653998" Name="Kraken_invoca" ObjectPath="\Events\Default Work Unit\Kraken_invoca" DurationType="OneShot" DurationMin="1.906281" DurationMax="1.906281"/>
 				<Event Id="263201390" Name="Kraken_muere" ObjectPath="\Events\Default Work Unit\Kraken_muere" DurationType="OneShot" DurationMin="4.473855" DurationMax="4.473855"/>
+				<Event Id="886770258" Name="Play_axolote" ObjectPath="\Events\Default Work Unit\Play_axolote" DurationType="OneShot" DurationMin="0.411088" DurationMax="0.603061"/>
 				<Event Id="3707565963" Name="Play_cuchillo" ObjectPath="\Events\Default Work Unit\Play_cuchillo" DurationType="OneShot" DurationMin="1.073061" DurationMax="1.419796"/>
-				<Event Id="2737623399" Name="Play_monedas" ObjectPath="\Events\Default Work Unit\Play_monedas" DurationType="OneShot" DurationMin="0.615805" DurationMax="0.730000"/>
+				<Event Id="430668544" Name="Play_enter" ObjectPath="\Events\Default Work Unit\Play_enter" DurationType="OneShot" DurationMin="1.143061" DurationMax="1.143061"/>
+				<Event Id="2737623399" Name="Play_monedas" ObjectPath="\Events\Default Work Unit\Play_monedas" DurationType="OneShot" DurationMin="1.174354" DurationMax="1.174354"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="16250013" Language="SFX">
@@ -54,6 +57,10 @@
 					<ShortName>enki_mueve-001.wav</ShortName>
 					<Path>SFX\enki_mueve-001_3F75BDB9.wem</Path>
 				</File>
+				<File Id="127024018" Language="SFX">
+					<ShortName>axolote-004.wav</ShortName>
+					<Path>SFX\axolote-004_3F75BDB9.wem</Path>
+				</File>
 				<File Id="132529698" Language="SFX">
 					<ShortName>amb_N1.wav</ShortName>
 					<Path>SFX\amb_N1_ED88C733.wem</Path>
@@ -68,7 +75,7 @@
 				</File>
 				<File Id="162382978" Language="SFX">
 					<ShortName>calamar-patrulla.wav</ShortName>
-					<Path>SFX\calamar-patrulla_D603CDF5.wem</Path>
+					<Path>SFX\calamar-patrulla_6C7F1BFE.wem</Path>
 				</File>
 				<File Id="166821359" Language="SFX">
 					<ShortName>menu_theme_v2.wav</ShortName>
@@ -86,13 +93,21 @@
 					<ShortName>amb_N1-002.wav</ShortName>
 					<Path>SFX\amb_N1-002_2DE11343.wem</Path>
 				</File>
+				<File Id="222712055" Language="SFX">
+					<ShortName>axolote-003.wav</ShortName>
+					<Path>SFX\axolote-003_3F75BDB9.wem</Path>
+				</File>
 				<File Id="255093735" Language="SFX">
 					<ShortName>calamar ataque.wav</ShortName>
-					<Path>SFX\calamar ataque_CA8A8591.wem</Path>
+					<Path>SFX\calamar ataque_C00320DA.wem</Path>
 				</File>
 				<File Id="262218615" Language="SFX">
 					<ShortName>amb_N1_short-002.wav</ShortName>
 					<Path>SFX\amb_N1_short-002_B8F2A363.wem</Path>
+				</File>
+				<File Id="286200543" Language="SFX">
+					<ShortName>UI-002.wav</ShortName>
+					<Path>SFX\UI-002_3F75BDB9.wem</Path>
 				</File>
 				<File Id="312430445" Language="SFX">
 					<ShortName>amb_menu_short-001.wav</ShortName>
@@ -102,29 +117,41 @@
 					<ShortName>amb_menu_short-002.wav</ShortName>
 					<Path>SFX\amb_menu_short-002_DA4E6437.wem</Path>
 				</File>
+				<File Id="343527507" Language="SFX">
+					<ShortName>monedas.wav</ShortName>
+					<Path>SFX\monedas_3F75BDB9.wem</Path>
+				</File>
 				<File Id="347754114" Language="SFX">
 					<ShortName>amb_menu_short.wav</ShortName>
 					<Path>SFX\amb_menu_short_298BC212.wem</Path>
+				</File>
+				<File Id="376340969" Language="SFX">
+					<ShortName>UI-003.wav</ShortName>
+					<Path>SFX\UI-003_3F75BDB9.wem</Path>
+				</File>
+				<File Id="381900270" Language="SFX">
+					<ShortName>axolote-005.wav</ShortName>
+					<Path>SFX\axolote-005_3F75BDB9.wem</Path>
 				</File>
 				<File Id="386922530" Language="SFX">
 					<ShortName>cofres.wav</ShortName>
 					<Path>SFX\cofres_3F75BDB9.wem</Path>
 				</File>
-				<File Id="419701707" Language="SFX">
-					<ShortName>moneda-001.wav</ShortName>
-					<Path>SFX\moneda-001_3F75BDB9.wem</Path>
-				</File>
 				<File Id="423270055" Language="SFX">
 					<ShortName>calamar ataque-001.wav</ShortName>
-					<Path>SFX\calamar ataque-001_79A71402.wem</Path>
+					<Path>SFX\calamar ataque-001_A2187B74.wem</Path>
+				</File>
+				<File Id="439419480" Language="SFX">
+					<ShortName>UI-005.wav</ShortName>
+					<Path>SFX\UI-005_3F75BDB9.wem</Path>
 				</File>
 				<File Id="460161884" Language="SFX">
 					<ShortName>enki_ataque-001.wav</ShortName>
 					<Path>SFX\enki_ataque-001_3F75BDB9.wem</Path>
 				</File>
-				<File Id="474273289" Language="SFX">
-					<ShortName>moneda.wav</ShortName>
-					<Path>SFX\moneda_351A3791.wem</Path>
+				<File Id="512725795" Language="SFX">
+					<ShortName>axolote-002.wav</ShortName>
+					<Path>SFX\axolote-002_3F75BDB9.wem</Path>
 				</File>
 				<File Id="567185007" Language="SFX">
 					<ShortName>amb_N1_short-001.wav</ShortName>
@@ -160,11 +187,15 @@
 				</File>
 				<File Id="669203351" Language="SFX">
 					<ShortName>enki_propulsion.wav</ShortName>
-					<Path>SFX\enki_propulsion_239148EC.wem</Path>
+					<Path>SFX\enki_propulsion_3F75BDB9.wem</Path>
 				</File>
 				<File Id="681815363" Language="SFX">
 					<ShortName>kraken-001.wav</ShortName>
 					<Path>SFX\kraken-001_3F75BDB9.wem</Path>
+				</File>
+				<File Id="699194492" Language="SFX">
+					<ShortName>axolote-001.wav</ShortName>
+					<Path>SFX\axolote-001_3F75BDB9.wem</Path>
 				</File>
 				<File Id="790463083" Language="SFX">
 					<ShortName>amb_menu.wav</ShortName>
@@ -178,9 +209,13 @@
 					<ShortName>amb_menu-001.wav</ShortName>
 					<Path>SFX\amb_menu-001_A3B0E7C1.wem</Path>
 				</File>
+				<File Id="865806117" Language="SFX">
+					<ShortName>UI-004.wav</ShortName>
+					<Path>SFX\UI-004_3F75BDB9.wem</Path>
+				</File>
 				<File Id="872286484" Language="SFX">
 					<ShortName>calamar muere.wav</ShortName>
-					<Path>SFX\calamar muere_049FC0F8.wem</Path>
+					<Path>SFX\calamar muere_1D095FF8.wem</Path>
 				</File>
 				<File Id="882794354" Language="SFX">
 					<ShortName>kraken-002.wav</ShortName>
