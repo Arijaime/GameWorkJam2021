@@ -1271,8 +1271,210 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 							<ChildrenList>
-								<Folder Name="kraken" ID="{F47F1278-430D-49FB-B73A-EC535FE64CD2}" ShortID="98438441"/>
-								<Folder Name="calamares" ID="{F3B805E0-BEBC-4694-B08A-3C1B7D5C1F01}" ShortID="228991572"/>
+								<Folder Name="kraken" ID="{F47F1278-430D-49FB-B73A-EC535FE64CD2}" ShortID="98438441">
+									<ChildrenList>
+										<Sound Name="kraken-001" ID="{010E4462-1BBF-47C5-85EE-B353CB68D1E6}" ShortID="26121848">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="kraken-001" ID="{A352A334-F5DC-4FC5-B0DD-A0701A2E4634}">
+													<Language>SFX</Language>
+													<AudioFile>kraken-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="681815363"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="kraken-001" ID="{A352A334-F5DC-4FC5-B0DD-A0701A2E4634}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="kraken-002" ID="{B4198C6A-4B88-4637-AA11-2D76276E62D5}" ShortID="814142134">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="kraken-002" ID="{E349B0D0-DABC-4714-B3BC-EE99B228B536}">
+													<Language>SFX</Language>
+													<AudioFile>kraken-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="882794354"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="kraken-002" ID="{E349B0D0-DABC-4714-B3BC-EE99B228B536}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="kraken-ataque" ID="{AFDB98BA-696D-4D6B-B77C-9511EC56D426}" ShortID="3979113">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="kraken-ataque" ID="{5E8C651B-ECCF-4646-8863-65C007C080AF}">
+													<Language>SFX</Language>
+													<AudioFile>kraken-ataque.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="597679317"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="kraken-ataque" ID="{5E8C651B-ECCF-4646-8863-65C007C080AF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="calamares" ID="{F3B805E0-BEBC-4694-B08A-3C1B7D5C1F01}" ShortID="228991572">
+									<ChildrenList>
+										<Sound Name="calamar muere" ID="{E4E8AAAF-F5E2-4297-8954-D25D78B16918}" ShortID="916822876">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="calamar muere" ID="{74294249-F9C9-4429-AEEC-2E8D6022B311}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.038479569119694"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.200359135761165"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0.120746234134212"/>
+														<Property Name="LoopEnd" Type="Real64" Value="1.45689342403628"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0782860199331706"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>calamar muere.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="872286484"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="calamar muere" ID="{74294249-F9C9-4429-AEEC-2E8D6022B311}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="calamar-patrulla" ID="{E35FCFDF-249E-4BEC-9B57-8A2A637FA035}" ShortID="300756789">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="calamar-patrulla" ID="{331216EE-13F5-4988-A800-6C13168E9AB7}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.428966126827173"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.442541004258413"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>calamar-patrulla.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="162382978"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="calamar-patrulla" ID="{331216EE-13F5-4988-A800-6C13168E9AB7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<RandomSequenceContainer Name="ataque calamar" ID="{B481941B-B7F0-4D8F-90D8-C22EBB33D478}" ShortID="263373822">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="calamar ataque" ID="{573D35EA-43E2-4E70-83A1-D1A8AC517BD5}" ShortID="38554013">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="calamar ataque" ID="{CBB0267B-7525-4498-858B-B404AA35DC73}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.505135125088287"/>
+																<Property Name="LoopBegin" Type="Real64" Value="0.0231485818371064"/>
+																<Property Name="LoopEnd" Type="Real64" Value="0.907732426303855"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0173614363778298"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>calamar ataque.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="255093735"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="calamar ataque" ID="{CBB0267B-7525-4498-858B-B404AA35DC73}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="calamar ataque-001" ID="{48C3E99C-2BF3-431D-A21F-D124A92734A4}" ShortID="941822018">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="calamar ataque-001" ID="{499E3F32-A7BF-4D87-A789-838BAD36974D}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.569045636469524"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>calamar ataque-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="423270055"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="calamar ataque-001" ID="{499E3F32-A7BF-4D87-A789-838BAD36974D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

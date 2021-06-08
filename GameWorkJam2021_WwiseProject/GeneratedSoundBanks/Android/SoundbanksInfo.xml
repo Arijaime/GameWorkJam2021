@@ -1,33 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Umbradev\Desktop\UnityProyects\GameWorkJam2021\GameWorkJam2021_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Umbradev\Desktop\UnityProyects\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Android\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Umbradev\Desktop\UnityProyects\GameWorkJam2021\GameWorkJam2021_WwiseProject\GeneratedSoundBanks\Android\</SoundBanksRoot>
+		<ProjectRoot>K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\.cache\Android\</SourceFilesRoot>
+		<SoundBanksRoot>K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\GeneratedSoundBanks\Android\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Umbradev\Desktop\UnityProyects\GameWorkJam2021\GameWorkJam2021_WwiseProject\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>K:\Hogar\Desktop\jams\DVBahía\GameWorkJam2021\GameWorkJam2021_WwiseProject\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="997575629" Language="SFX" Hash="3436156695">
+		<SoundBank Id="997575629" Language="SFX" Hash="3399861212">
 			<ObjectPath>\SoundBanks\Default Work Unit\Jambank</ObjectPath>
 			<ShortName>Jambank</ShortName>
 			<Path>Jambank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1051062948" Name="Calamar_ataque" ObjectPath="\Events\Default Work Unit\Calamar_ataque" DurationType="OneShot" DurationMin="0.890394" DurationMax="1.031043"/>
+				<Event Id="2277376489" Name="Calamar_muere" ObjectPath="\Events\Default Work Unit\Calamar_muere" DurationType="OneShot" DurationMin="1.378630" DurationMax="1.378630"/>
+				<Event Id="2662779926" Name="Calamar_patrulla" ObjectPath="\Events\Default Work Unit\Calamar_patrulla" DurationType="OneShot" DurationMin="1.490522" DurationMax="1.490522"/>
 				<Event Id="4046895995" Name="Cofre_open" ObjectPath="\Events\Default Work Unit\Cofre_open" DurationType="OneShot" DurationMin="4.171021" DurationMax="4.229456"/>
+				<Event Id="1400791408" Name="Enki_damage" ObjectPath="\Events\Default Work Unit\Enki_damage" DurationType="OneShot" DurationMin="1.497642" DurationMax="1.830612"/>
 				<Event Id="2728600545" Name="Enki_hunde" ObjectPath="\Events\Default Work Unit\Enki_hunde" DurationType="OneShot" DurationMin="4.714109" DurationMax="4.714109"/>
+				<Event Id="151623893" Name="Enki_mueve" ObjectPath="\Events\Default Work Unit\Enki_mueve" DurationType="OneShot" DurationMin="3.014363" DurationMax="3.014363"/>
+				<Event Id="2473879928" Name="Enki_propulsion" ObjectPath="\Events\Default Work Unit\Enki_propulsion" DurationType="OneShot" DurationMin="2.606553" DurationMax="2.606553"/>
 				<Event Id="922323882" Name="Heart_open" ObjectPath="\Events\Default Work Unit\Heart_open" DurationType="OneShot" DurationMin="3.771791" DurationMax="3.771791"/>
 				<Event Id="1880221935" Name="HP_salud" ObjectPath="\Events\Default Work Unit\HP_salud" DurationType="OneShot" DurationMin="1.478898" DurationMax="1.487365"/>
 				<Event Id="3287567335" Name="Inicia_game" ObjectPath="\Events\Default Work Unit\Inicia_game" DurationType="Infinite">
 					<ActionSetState>
-						<ActionSetStateEntry Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Ambientes\None"/>
+						<ActionSetStateEntry Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Niveles\None"/>
 					</ActionSetState>
 				</Event>
+				<Event Id="478551189" Name="Kraken_ataque" ObjectPath="\Events\Default Work Unit\Kraken_ataque" DurationType="OneShot" DurationMin="2.925011" DurationMax="2.925011"/>
+				<Event Id="3405653998" Name="Kraken_invoca" ObjectPath="\Events\Default Work Unit\Kraken_invoca" DurationType="OneShot" DurationMin="1.906281" DurationMax="1.906281"/>
+				<Event Id="263201390" Name="Kraken_muere" ObjectPath="\Events\Default Work Unit\Kraken_muere" DurationType="OneShot" DurationMin="4.473855" DurationMax="4.473855"/>
+				<Event Id="3707565963" Name="Play_cuchillo" ObjectPath="\Events\Default Work Unit\Play_cuchillo" DurationType="OneShot" DurationMin="1.073061" DurationMax="1.419796"/>
 				<Event Id="2737623399" Name="Play_monedas" ObjectPath="\Events\Default Work Unit\Play_monedas" DurationType="OneShot" DurationMin="0.615805" DurationMax="0.730000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="16250013" Language="SFX">
+					<ShortName>enki_ataque-002.wav</ShortName>
+					<Path>SFX\enki_ataque-002_3F75BDB9.wem</Path>
+				</File>
 				<File Id="37338373" Language="SFX">
 					<ShortName>cofres-002.wav</ShortName>
 					<Path>SFX\cofres-002_3F75BDB9.wem</Path>
@@ -35,6 +49,10 @@
 				<File Id="108789451" Language="SFX">
 					<ShortName>ui-001.wav</ShortName>
 					<Path>SFX\ui-001_3F75BDB9.wem</Path>
+				</File>
+				<File Id="123025531" Language="SFX">
+					<ShortName>enki_mueve-001.wav</ShortName>
+					<Path>SFX\enki_mueve-001_3F75BDB9.wem</Path>
 				</File>
 				<File Id="132529698" Language="SFX">
 					<ShortName>amb_N1.wav</ShortName>
@@ -44,6 +62,22 @@
 					<ShortName>HP.wav</ShortName>
 					<Path>SFX\HP_BE65D834.wem</Path>
 				</File>
+				<File Id="160086623" Language="SFX">
+					<ShortName>enki_mueve.wav</ShortName>
+					<Path>SFX\enki_mueve_3F75BDB9.wem</Path>
+				</File>
+				<File Id="162382978" Language="SFX">
+					<ShortName>calamar-patrulla.wav</ShortName>
+					<Path>SFX\calamar-patrulla_D603CDF5.wem</Path>
+				</File>
+				<File Id="166821359" Language="SFX">
+					<ShortName>menu_theme_v2.wav</ShortName>
+					<Path>SFX\menu_theme_v2_9EDFC787.wem</Path>
+				</File>
+				<File Id="169090163" Language="SFX">
+					<ShortName>menu_theme_v2_loop.wav</ShortName>
+					<Path>SFX\menu_theme_v2_loop_9EDFC787.wem</Path>
+				</File>
 				<File Id="174522978" Language="SFX">
 					<ShortName>enki_hunde.wav</ShortName>
 					<Path>SFX\enki_hunde_0F548419.wem</Path>
@@ -51,6 +85,10 @@
 				<File Id="182927797" Language="SFX">
 					<ShortName>amb_N1-002.wav</ShortName>
 					<Path>SFX\amb_N1-002_2DE11343.wem</Path>
+				</File>
+				<File Id="255093735" Language="SFX">
+					<ShortName>calamar ataque.wav</ShortName>
+					<Path>SFX\calamar ataque_CA8A8591.wem</Path>
 				</File>
 				<File Id="262218615" Language="SFX">
 					<ShortName>amb_N1_short-002.wav</ShortName>
@@ -76,6 +114,14 @@
 					<ShortName>moneda-001.wav</ShortName>
 					<Path>SFX\moneda-001_3F75BDB9.wem</Path>
 				</File>
+				<File Id="423270055" Language="SFX">
+					<ShortName>calamar ataque-001.wav</ShortName>
+					<Path>SFX\calamar ataque-001_79A71402.wem</Path>
+				</File>
+				<File Id="460161884" Language="SFX">
+					<ShortName>enki_ataque-001.wav</ShortName>
+					<Path>SFX\enki_ataque-001_3F75BDB9.wem</Path>
+				</File>
 				<File Id="474273289" Language="SFX">
 					<ShortName>moneda.wav</ShortName>
 					<Path>SFX\moneda_351A3791.wem</Path>
@@ -84,6 +130,18 @@
 					<ShortName>amb_N1_short-001.wav</ShortName>
 					<Path>SFX\amb_N1_short-001_74DD0FF5.wem</Path>
 				</File>
+				<File Id="579094329" Language="SFX">
+					<ShortName>enki_damage-001.wav</ShortName>
+					<Path>SFX\enki_damage-001_3F75BDB9.wem</Path>
+				</File>
+				<File Id="597679317" Language="SFX">
+					<ShortName>kraken-ataque.wav</ShortName>
+					<Path>SFX\kraken-ataque_3F75BDB9.wem</Path>
+				</File>
+				<File Id="626107001" Language="SFX">
+					<ShortName>enki_damage.wav</ShortName>
+					<Path>SFX\enki_damage_3F75BDB9.wem</Path>
+				</File>
 				<File Id="628460631" Language="SFX">
 					<ShortName>HP-001.wav</ShortName>
 					<Path>SFX\HP-001_DABEAED2.wem</Path>
@@ -91,6 +149,22 @@
 				<File Id="641655162" Language="SFX">
 					<ShortName>cofres-003.wav</ShortName>
 					<Path>SFX\cofres-003_3F75BDB9.wem</Path>
+				</File>
+				<File Id="650558789" Language="SFX">
+					<ShortName>lvl_1_B_percu.wav</ShortName>
+					<Path>SFX\lvl_1_B_percu_9EDFC787.wem</Path>
+				</File>
+				<File Id="667001359" Language="SFX">
+					<ShortName>lvl_1_B.wav</ShortName>
+					<Path>SFX\lvl_1_B_9EDFC787.wem</Path>
+				</File>
+				<File Id="669203351" Language="SFX">
+					<ShortName>enki_propulsion.wav</ShortName>
+					<Path>SFX\enki_propulsion_239148EC.wem</Path>
+				</File>
+				<File Id="681815363" Language="SFX">
+					<ShortName>kraken-001.wav</ShortName>
+					<Path>SFX\kraken-001_3F75BDB9.wem</Path>
 				</File>
 				<File Id="790463083" Language="SFX">
 					<ShortName>amb_menu.wav</ShortName>
@@ -104,26 +178,53 @@
 					<ShortName>amb_menu-001.wav</ShortName>
 					<Path>SFX\amb_menu-001_A3B0E7C1.wem</Path>
 				</File>
+				<File Id="872286484" Language="SFX">
+					<ShortName>calamar muere.wav</ShortName>
+					<Path>SFX\calamar muere_049FC0F8.wem</Path>
+				</File>
+				<File Id="882794354" Language="SFX">
+					<ShortName>kraken-002.wav</ShortName>
+					<Path>SFX\kraken-002_3F75BDB9.wem</Path>
+				</File>
+				<File Id="913408098" Language="SFX">
+					<ShortName>lvl_1_A.wav</ShortName>
+					<Path>SFX\lvl_1_A_9EDFC787.wem</Path>
+				</File>
+				<File Id="978636148" Language="SFX">
+					<ShortName>enki_ataque.wav</ShortName>
+					<Path>SFX\enki_ataque_3F75BDB9.wem</Path>
+				</File>
 				<File Id="992919730" Language="SFX">
 					<ShortName>amb_N1_short.wav</ShortName>
 					<Path>SFX\amb_N1_short_75832DB5.wem</Path>
 				</File>
+				<File Id="1021825048" Language="SFX">
+					<ShortName>enki_mueve-002.wav</ShortName>
+					<Path>SFX\enki_mueve-002_3C22CB10.wem</Path>
+				</File>
 			</IncludedMemoryFiles>
 			<StateGroups>
-				<StateGroup Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Ambientes\None">
+				<StateGroup Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Niveles\None">
 					<States/>
 				</StateGroup>
-				<StateGroup Id="1014953671" Name="Ambientes" ObjectPath="\States\Default Work Unit\Ambientes">
+				<StateGroup Id="2229846799" Name="Niveles" ObjectPath="\States\Default Work Unit\Niveles">
 					<States>
-						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Ambientes\None"/>
-						<State Id="2607556080" Name="Menu" ObjectPath="\States\Default Work Unit\Ambientes\Menu"/>
-						<State Id="2666064987" Name="Nivel_1" ObjectPath="\States\Default Work Unit\Ambientes\Nivel_1"/>
-						<State Id="2666064984" Name="Nivel_2" ObjectPath="\States\Default Work Unit\Ambientes\Nivel_2"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Niveles\None"/>
+						<State Id="2607556080" Name="Menu" ObjectPath="\States\Default Work Unit\Niveles\Menu"/>
+						<State Id="2666064987" Name="Nivel_1" ObjectPath="\States\Default Work Unit\Niveles\Nivel_1"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2397100949" Name="Lvl_1" ObjectPath="\States\Default Work Unit\Musica\Lvl_1">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Musica\Lvl_1\None"/>
+						<State Id="84696446" Name="A" ObjectPath="\States\Default Work Unit\Musica\Lvl_1\A"/>
+						<State Id="84696445" Name="B" ObjectPath="\States\Default Work Unit\Musica\Lvl_1\B"/>
+						<State Id="84696444" Name="C" ObjectPath="\States\Default Work Unit\Musica\Lvl_1\C"/>
 					</States>
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2267738259">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1709047694">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>

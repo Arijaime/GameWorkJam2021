@@ -103,13 +103,73 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Calamar_muere" ID="{083BD73F-7280-4E5F-822F-73162051D77D}"/>
-				<Event Name="Calamar_ataque" ID="{5F79E0A9-2654-41CB-9D98-C50FA4ACBF4E}"/>
-				<Event Name="Calamar_patrulla" ID="{24693636-D91D-43C3-82A6-2A8A76AC05CF}"/>
+				<Event Name="Calamar_muere" ID="{083BD73F-7280-4E5F-822F-73162051D77D}">
+					<ChildrenList>
+						<Action Name="" ID="{F2FB88DF-500B-4911-A10B-60B7670026E9}" ShortID="485855879">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="calamar muere" ID="{E4E8AAAF-F5E2-4297-8954-D25D78B16918}" WorkUnitID="{7CE40F40-80A6-4B87-81E4-ABA5DB6FC691}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Calamar_ataque" ID="{5F79E0A9-2654-41CB-9D98-C50FA4ACBF4E}">
+					<ChildrenList>
+						<Action Name="" ID="{26E0ADD5-1F9B-40E2-953E-D4B402B320CA}" ShortID="467979907">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ataque calamar" ID="{B481941B-B7F0-4D8F-90D8-C22EBB33D478}" WorkUnitID="{7CE40F40-80A6-4B87-81E4-ABA5DB6FC691}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Calamar_patrulla" ID="{24693636-D91D-43C3-82A6-2A8A76AC05CF}">
+					<ChildrenList>
+						<Action Name="" ID="{77F67666-2C89-4113-BBE7-A87AD1B55106}" ShortID="707905507">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="calamar-patrulla" ID="{E35FCFDF-249E-4BEC-9B57-8A2A637FA035}" WorkUnitID="{7CE40F40-80A6-4B87-81E4-ABA5DB6FC691}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="Calamar_persigue" ID="{CCBB48DB-89FC-43DB-BDCE-E0119889E28B}"/>
-				<Event Name="Kraken_muere" ID="{06F1C939-A034-402F-A492-426328F9C88F}"/>
-				<Event Name="Kraken_invoca" ID="{BB123A89-B22D-4941-A45F-E29DF30DDED5}"/>
-				<Event Name="Kraken_ataque" ID="{F236A548-88A2-4281-BD27-E7C63327C06F}"/>
+				<Event Name="Kraken_muere" ID="{06F1C939-A034-402F-A492-426328F9C88F}">
+					<ChildrenList>
+						<Action Name="" ID="{D1167738-D2D3-4D5F-8473-4F0FFA4AE274}" ShortID="397517887">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="kraken-001" ID="{010E4462-1BBF-47C5-85EE-B353CB68D1E6}" WorkUnitID="{7CE40F40-80A6-4B87-81E4-ABA5DB6FC691}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Kraken_invoca" ID="{BB123A89-B22D-4941-A45F-E29DF30DDED5}">
+					<ChildrenList>
+						<Action Name="" ID="{92F74C60-9B00-4494-82D0-6CD1CA036814}" ShortID="970157896">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="kraken-002" ID="{B4198C6A-4B88-4637-AA11-2D76276E62D5}" WorkUnitID="{7CE40F40-80A6-4B87-81E4-ABA5DB6FC691}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Kraken_ataque" ID="{F236A548-88A2-4281-BD27-E7C63327C06F}">
+					<ChildrenList>
+						<Action Name="" ID="{0E2A7E66-A344-49F4-99CB-DA24854ACA40}" ShortID="797805624">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="kraken-ataque" ID="{AFDB98BA-696D-4D6B-B77C-9511EC56D426}" WorkUnitID="{7CE40F40-80A6-4B87-81E4-ABA5DB6FC691}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="Play_cuchillo" ID="{3092517B-7840-4994-A41D-CF7603B242B0}">
 					<ChildrenList>
 						<Action Name="" ID="{BA73F88B-F763-4A35-A0CD-58D8260C6FFB}" ShortID="896186984">
