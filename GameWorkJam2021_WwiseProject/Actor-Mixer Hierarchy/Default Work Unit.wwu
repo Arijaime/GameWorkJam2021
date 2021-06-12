@@ -1535,6 +1535,13 @@
 						<Folder Name="axolote" ID="{CCA2C0D0-805A-4FA9-9279-B6A2C167C9AC}" ShortID="191491267">
 							<ChildrenList>
 								<RandomSequenceContainer Name="axolote" ID="{FED29C0F-EBBE-45FB-95FF-B83DB764F11D}" ShortID="504255842">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-16</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F87F74F1-F86C-4BB8-877D-069AEEC62BE4}"/>
