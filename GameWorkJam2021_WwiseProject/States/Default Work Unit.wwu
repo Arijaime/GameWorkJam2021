@@ -8,6 +8,7 @@
 						<State Name="None" ID="{6C8B534D-40D6-4F7F-9635-5DF248B7F5B1}"/>
 						<State Name="Menu" ID="{5A8529D8-5DBA-44AA-8BD9-62F2BBED7FF2}"/>
 						<State Name="Nivel_1" ID="{316D7063-3710-4242-999B-772E96E6FE54}"/>
+						<State Name="Jefe" ID="{72E06BE5-85E3-4163-BA1A-6448DC9CF7ED}"/>
 					</ChildrenList>
 				</StateGroup>
 				<Folder Name="Musica" ID="{F7021A66-1CF0-4057-AB95-10B598F17B8B}" ShortID="64726214">
@@ -18,16 +19,6 @@
 								<State Name="A" ID="{0723058B-2CA8-435A-B6A0-B82436792001}"/>
 								<State Name="B" ID="{BD59A0A3-CF01-4BEE-A1CF-D0C392736489}"/>
 								<State Name="C" ID="{ADB51440-3092-4DE9-B936-7B57D42115EB}"/>
-							</ChildrenList>
-						</StateGroup>
-						<StateGroup Name="New_State_Group_01" ID="{8D96B77F-5B6C-489A-939F-06232BDF9F03}">
-							<ChildrenList>
-								<State Name="None" ID="{91DFD874-5972-4E22-A024-D3AA6F57B77D}"/>
-							</ChildrenList>
-						</StateGroup>
-						<StateGroup Name="New_State_Group_02" ID="{E8B57661-2D83-408C-B918-4DF6356CF284}">
-							<ChildrenList>
-								<State Name="None" ID="{301FF711-13E8-41CC-9555-6E60BCECF91B}"/>
 							</ChildrenList>
 						</StateGroup>
 					</ChildrenList>
