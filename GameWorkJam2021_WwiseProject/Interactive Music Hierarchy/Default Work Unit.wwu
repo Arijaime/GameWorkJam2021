@@ -25,6 +25,11 @@
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="10"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -42,6 +47,11 @@
 										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 										<Property Name="Tempo" Type="Real64" Value="60"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -52,23 +62,23 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="menu_theme_v2" ID="{0B92D183-5E94-4D0A-885F-5E8263C7195A}" ShortID="509866946">
+										<MusicTrack Name="menu_theme_enki's_journey_1" ID="{DF20A5D3-683B-42D5-9FB5-C923B05C2685}" ShortID="252200661">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="menu_theme_v2" ID="{9A5AD4E8-35EF-4133-980C-5FF64B1BC4C3}">
+												<AudioFileSource Name="menu_theme_enki's_journey_1" ID="{F0334B3B-D42F-4921-A2B2-D52598803E1F}">
 													<Language>SFX</Language>
-													<AudioFile>menu_theme_v2.wav</AudioFile>
+													<AudioFile>menu_theme_enki's_journey_1.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="166821359"/>
+														<MediaID ID="662311432"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{DEB4A11E-E9A6-4DCE-8B80-FA5236CEF1EC}">
+												<MusicTransition Name="Root" ID="{CD379A17-7EE7-4291-B806-8EE1CD6494BE}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -79,18 +89,18 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{CFCA8359-F9B5-4A24-8FE6-B16D83547C1A}">
+															<MusicTrackSequence Name="" ID="{4CCA11CD-CDBB-422A-B9C4-B8A955B6AD99}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="menu_theme_v2" ID="{E61FFDA6-19BC-466A-9F68-7047B7A56911}">
+																				<MusicClip Name="menu_theme_enki's_journey_1" ID="{8D6FA029-E74F-4113-9806-5064F1A9D1E4}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="123267.437641723"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="125267.4375"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="menu_theme_v2" ID="{9A5AD4E8-35EF-4133-980C-5FF64B1BC4C3}"/>
+																					<AudioSourceRef Name="menu_theme_enki's_journey_1" ID="{F0334B3B-D42F-4921-A2B2-D52598803E1F}"/>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -130,6 +140,11 @@
 										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 										<Property Name="Tempo" Type="Real64" Value="60"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -140,23 +155,23 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="menu_theme_v2_loop" ID="{436419D6-97DC-4DB1-9BE1-4058763B732E}" ShortID="795805657">
+										<MusicTrack Name="menu_theme_enki's_journey_2" ID="{F104C1E6-1DC1-41FA-8A19-BA3295995958}" ShortID="101512703">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{819C5C96-F578-469A-B17A-9329E7B8F71B}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="menu_theme_v2_loop" ID="{C25E5F49-949C-4496-B02C-9A38B39B758F}">
+												<AudioFileSource Name="menu_theme_enki's_journey_2" ID="{427C06BA-380F-433F-AE37-B75F27511390}">
 													<Language>SFX</Language>
-													<AudioFile>menu_theme_v2_loop.wav</AudioFile>
+													<AudioFile>menu_theme_enki's_journey_2.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="169090163"/>
+														<MediaID ID="538916198"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{6A3EAA52-14B8-437F-8AAE-745DDDBB9754}">
+												<MusicTransition Name="Root" ID="{BE50E37B-C883-4FB3-91FC-BA8505D87808}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -167,18 +182,18 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{93CA4450-0BE1-4346-BD87-7FFC6E4E2E74}">
+															<MusicTrackSequence Name="" ID="{262943C4-7FA3-4B75-80D6-1A756F601F5B}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="menu_theme_v2_loop" ID="{3EFDD21E-EA30-483C-8AD4-AA54332C590E}">
+																				<MusicClip Name="menu_theme_enki's_journey_2" ID="{553755A6-3875-4DD4-8D57-AB399EF050B5}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="109667.437641723"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="111667.4375"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="menu_theme_v2_loop" ID="{C25E5F49-949C-4496-B02C-9A38B39B758F}"/>
+																					<AudioSourceRef Name="menu_theme_enki's_journey_2" ID="{427C06BA-380F-433F-AE37-B75F27511390}"/>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -488,7 +503,7 @@
 																											</Point>
 																											<Point>
 																												<XPos>16.1889</XPos>
-																												<YPos>-0</YPos>
+																												<YPos>0</YPos>
 																												<Flags>0</Flags>
 																											</Point>
 																											<Point>
@@ -1283,7 +1298,7 @@
 																									</Point>
 																									<Point>
 																										<XPos>15.66456</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>0</Flags>
 																									</Point>
 																									<Point>
@@ -2863,7 +2878,7 @@
 																									</Point>
 																									<Point>
 																										<XPos>15.66456</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>0</Flags>
 																									</Point>
 																									<Point>
